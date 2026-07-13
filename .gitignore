@@ -1,0 +1,9 @@
+# Mengabaikan file backup dan cache bawaan KiCad
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.tmp
+fp-info-cache
