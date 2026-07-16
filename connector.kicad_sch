@@ -17936,7 +17936,7 @@
 				)
 			)
 		)
-		(property "MPN" "USBLC6-4SC6"
+		(property "MPN" "USBLC6-2SC6"
 			(at 66.04 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -20819,31 +20819,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "f95d24d3-ac0f-4149-b43c-286278b3ff43")
 		(property "Reference" "J19"
-			(at 77.47 25.3999 0)
+			(at 76.2 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 77.47 27.9399 0)
+			(at 76.2 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 76.2 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20866,17 +20863,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 76.2 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
 			(at 76.2 26.67 0)
 			(hide yes)
 			(show_name no)
