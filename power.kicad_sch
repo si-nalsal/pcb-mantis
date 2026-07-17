@@ -4942,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_YFP0020_DSBGA-20_1.56x1.96mm_Layout4x5_P0.4mm"
+		(property "Footprint" "Package_BGA:Texas_YFP0020_DSBGA-20_1.588x1.988mm_Layout4x5_P0.4mm"
 			(at 68.58 83.82 0)
 			(hide yes)
 			(show_name no)

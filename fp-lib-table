@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.pretty") (options "") (descr ""))
+	(lib (name "Svayam") (type "KiCad") (uri "${KIPRJMOD}/Library/Svayam/Svayam.pretty") (options "") (descr ""))
+)

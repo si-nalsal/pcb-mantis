@@ -6397,7 +6397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Svayam:PQFN50P200X200X80-10N"
+		(property "Footprint" "Svayam:XDCR_BMP388"
 			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)

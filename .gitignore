@@ -1,0 +1,32 @@
+# Track only essential KiCad project files and project libraries
+
+# Ignore everything by default
+*
+
+# Keep this file
+!.gitignore
+
+# Optional repository documentation
+!/README.md
+!/LICENSE
+
+# KiCad project files in the project root
+!/*.kicad_pro
+!/*.kicad_sch
+!/*.kicad_pcb
+!/*.kicad_dru
+!/*.kicad_wks
+!/*.kicad_jobset
+
+# KiCad project-specific library tables
+!/fp-lib-table
+!/sym-lib-table
+
+# Project libraries and 3D models
+!/Library/
+!/Library/**/
+!/Library/**/*.kicad_sym
+!/Library/**/*.kicad_mod
+!/Library/**/*.step
+!/Library/**/*.wrl
+!/Library/**/.gitkeep

@@ -11301,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Svayam:TestPoint_7Pads_2.0x2.0mm"
+		(property "Footprint" "Connector_JST:JST_GH_BM07B-GHS-TBT_1x07-1MP_P1.25mm_Vertical"
 			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
