@@ -6702,7 +6702,7 @@
 		)
 		(uuid "32c913c3-79ea-41c1-a7e2-70996f0e1575")
 	)
-	(text "13 VDD -> 100nF x 13; 4.7uF\nVREF+ -> 100nF; 1uF\nVDDA+ -> 100nF; 1uF"
+	(text "13 VDD → 100nF x 13; 4.7uF\nVREF+ VDDA+ → 100nF; 1uF\nVDD33_USB → 100nF"
 		(exclude_from_sim no)
 		(at 36.576 42.672 0)
 		(effects
@@ -13186,7 +13186,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k5"
 			(at 108.966 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13229,7 +13229,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF3300TCE"
+		(property "MPN" "0402WGF1501TCE"
 			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13278,7 +13278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H743IIKx"
+		(property "Value" "STM32H743IIK6"
 			(at 226.9841 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15132,7 +15132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 319.532 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -15155,6 +15155,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 321.31 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 321.31 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15934,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65a0dc2a-e36e-4ee5-8def-2a7e5e572cda")
 		(property "Reference" "R71"
@@ -16581,7 +16592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM25V05_512-Kbit_(64_K_8)_Serial_(SPI)_F-RAM-DataSheet-v09_00-EN.pdf"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-fm25cl64b-64-kbit-8-k-8-serial-spi-f-ram-datasheet-en.pdf?fileId=8ac78c8c7d0d8da4017d0ebdfcd83119"
 			(at 307.34 225.298 0)
 			(hide yes)
 			(show_name no)
@@ -16944,7 +16955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 328.422 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -16967,6 +16978,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 330.2 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 330.2 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17804,7 +17826,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k5"
 			(at 98.806 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17847,7 +17869,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF3300TCE"
+		(property "MPN" "0402WGF1501TCE"
 			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -19407,7 +19429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 286.512 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -19430,6 +19452,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 288.29 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 288.29 220.98 0)
 			(hide yes)
 			(show_name no)

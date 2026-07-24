@@ -5339,12 +5339,6 @@
 		(uuid "4492ffb1-8792-4171-bbe1-e00034453b29")
 	)
 	(junction
-		(at 82.55 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "457aa9b3-a02f-48c4-bf43-f27f210c8482")
-	)
-	(junction
 		(at 264.16 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5429,6 +5423,12 @@
 		(uuid "8358b2e6-0e58-4d6b-9cf6-af822a52aaf8")
 	)
 	(junction
+		(at 82.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "874eba63-9e30-40f2-b237-a8c31866adca")
+	)
+	(junction
 		(at 264.16 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5489,12 +5489,6 @@
 		(uuid "c2f0a282-4124-4b6e-a063-37df8a8572bf")
 	)
 	(junction
-		(at 130.81 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c509e728-3fbf-4883-be5a-13316a6413df")
-	)
-	(junction
 		(at 264.16 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5523,6 +5517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e29d7859-1f51-446c-816d-f3f66edeb2b8")
+	)
+	(junction
+		(at 130.81 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e934e02c-8a05-41f5-9783-7da4e9ce5c8e")
 	)
 	(junction
 		(at 246.38 64.77)
@@ -5629,6 +5629,16 @@
 			(type default)
 		)
 		(uuid "03d32757-00f3-483d-bc41-16376a6b5a68")
+	)
+	(wire
+		(pts
+			(xy 118.11 111.76) (xy 118.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049ba508-1016-4111-bfed-a2803e11ddc6")
 	)
 	(wire
 		(pts
@@ -5899,6 +5909,16 @@
 			(type default)
 		)
 		(uuid "1ec13f51-4dd6-47e2-8365-f7e81dfb7ec1")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1b1ba3-8180-49ed-ab72-1085189def50")
 	)
 	(wire
 		(pts
@@ -7069,6 +7089,16 @@
 			(type default)
 		)
 		(uuid "8765fd39-074a-4b79-be93-ba825e83edcc")
+	)
+	(wire
+		(pts
+			(xy 118.11 113.03) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e80cbc-77cb-4b14-9c6f-cb5eefcae5a2")
 	)
 	(wire
 		(pts
@@ -12684,6 +12714,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 118.11 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3da2d520-1993-49f2-bd2a-c82709840f32")
+		(property "Reference" "#PWR082"
+			(at 118.11 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBRICK2"
+			(at 113.792 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c0798a9-2193-4e99-b39d-2f1b5cec80b2")
+		)
+		(instances
+			(project "SvayamV3_IIK"
+				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 124.46 93.98 270)
 		(mirror x)
@@ -13592,84 +13700,6 @@
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59bd0333-6f19-4125-8ae6-4e77b9a13b63")
-		(property "Reference" "#PWR082"
-			(at 130.81 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBRICK2"
-			(at 126.492 108.966 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c981a59-00fe-444a-8694-61e56e9ac3c4")
-		)
-		(instances
-			(project "SvayamV3_IIK"
-				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -15728,7 +15758,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 82.55 104.14 0)
+		(at 67.31 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15738,7 +15768,7 @@
 		(dnp no)
 		(uuid "8e658406-f1f2-41d5-8fe9-dcb362202b64")
 		(property "Reference" "#PWR081"
-			(at 82.55 107.95 0)
+			(at 67.31 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15749,7 +15779,7 @@
 			)
 		)
 		(property "Value" "+VBRICK1"
-			(at 78.232 100.076 0)
+			(at 62.992 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15760,7 +15790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 104.14 0)
+			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15771,7 +15801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 104.14 0)
+			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15782,7 +15812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 104.14 0)
+			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

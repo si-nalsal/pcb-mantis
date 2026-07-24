@@ -8696,7 +8696,7 @@
 			(uuid "93be180a-8e2c-40d4-8db5-bc3e8352b77b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SIM-SMD_8P-1040310811.wrl"
+		(model "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.3dshapes/SIM-SMD_8P-1040310811.step"
 			(offset
 				(xyz 0.01 -0.05 -0)
 			)
@@ -30876,7 +30876,7 @@
 			(uuid "ae9842f8-d46e-4365-8bbb-babb1e6959cf")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_TS-1010A-B.wrl"
+		(model "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_TS-1010A-B.step"
 			(offset
 				(xyz 0.35 0 0)
 			)
@@ -33158,7 +33158,7 @@
 			(uuid "98cead3d-e551-42c2-9a3a-e8fbe29bb5bb")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_SK-3296S-01-L3.wrl"
+		(model "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_SK-3296S-01-L3.step"
 			(offset
 				(xyz 0 -0.5 0)
 			)
@@ -35997,7 +35997,7 @@
 			(uuid "036f181b-673e-473e-bc1a-68b72f46f0e9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C16PIN.wrl"
+		(model "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C16PIN.step"
 			(offset
 				(xyz 0 -2.5 0)
 			)

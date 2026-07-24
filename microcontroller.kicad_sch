@@ -13278,7 +13278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H743IIKx"
+		(property "Value" "STM32H743IIK6"
 			(at 226.9841 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15934,7 +15934,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65a0dc2a-e36e-4ee5-8def-2a7e5e572cda")
 		(property "Reference" "R71"
