@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Svayam_Symbol") (type "KiCad") (uri "${KIPRJMOD}/Library/Svayam/Svayam_Symbol") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/Library/easyeda2kicad/easyeda2kicad.kicad_sym") (options "") (descr ""))
+	(lib (name "tps63070") (type "KiCad") (uri "${KIPRJMOD}/Library/tps63070.pretty") (options "") (descr ""))
+)
