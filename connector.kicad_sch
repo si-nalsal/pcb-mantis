@@ -5777,6 +5777,16 @@
 		)
 		(uuid "0669c2f5-9fe8-4cf3-9997-c50158edb64c")
 	)
+	(text "IMAX = 616mA\n"
+		(exclude_from_sim no)
+		(at 501.65 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17269f11-ef38-4660-803b-60095b2c5abb")
+	)
 	(text "PERIPHERALS\n"
 		(exclude_from_sim no)
 		(at 149.86 131.826 0)
@@ -5796,6 +5806,16 @@
 			)
 		)
 		(uuid "69d8d9a2-8d7a-49e0-a82f-a503d8c2d33b")
+	)
+	(text "IMAX = 616mA\n"
+		(exclude_from_sim no)
+		(at 501.396 305.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f2c84f9-8db7-4a12-a91c-76abad56d32e")
 	)
 	(text "USB\n"
 		(exclude_from_sim no)
@@ -21229,7 +21249,7 @@
 				)
 			)
 		)
-		(property "Value" "75k"
+		(property "Value" "47k"
 			(at 492.76 222.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29684,7 +29704,7 @@
 				)
 			)
 		)
-		(property "Value" "75k"
+		(property "Value" "47k"
 			(at 494.03 296.418 90)
 			(show_name no)
 			(do_not_autoplace no)
