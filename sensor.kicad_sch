@@ -6825,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPS310XTSA1:XDCR_DPS310XTSA1"
+		(property "Footprint" "Svayam:XDCR_DPS310XTSA1"
 			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
