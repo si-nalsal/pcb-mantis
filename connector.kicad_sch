@@ -13221,7 +13221,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0055cfe1-e9e4-4af5-97ea-a7a2bcb543b1")
-		(property "Reference" "J16"
+		(property "Reference" "J17"
 			(at 149.86 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13302,7 +13302,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J16")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -13319,7 +13319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "010dfdd0-11f3-48b8-904d-491d1aa9385f")
-		(property "Reference" "C84"
+		(property "Reference" "C74"
 			(at 254.254 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13383,7 +13383,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C84")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -13400,7 +13400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "016590a8-f589-46b2-b31f-399a02369160")
-		(property "Reference" "R24"
+		(property "Reference" "R46"
 			(at 56.388 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13475,7 +13475,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R24")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -13493,7 +13493,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "01d4858a-8095-49d3-98a8-7527ef2cbbca")
-		(property "Reference" "J12"
+		(property "Reference" "J5"
 			(at 50.8 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13580,7 +13580,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J12")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13598,7 +13598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a2058e-ba84-4b9a-b7f6-e2588ee08e65")
-		(property "Reference" "U23"
+		(property "Reference" "U24"
 			(at 525.78 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13770,7 +13770,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U23")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -13788,7 +13788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038b2f01-7202-4cb7-baea-51494e7c769c")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0139"
 			(at 556.26 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -13848,7 +13848,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0158")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -13866,7 +13866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03db8abe-bf41-4d44-9358-b1d29f6d518b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR071"
 			(at 40.64 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13927,7 +13927,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR062")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13945,7 +13945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0518b2e6-0342-4502-b421-1a6ea3fe1f4d")
-		(property "Reference" "R57"
+		(property "Reference" "R41"
 			(at 43.434 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +14020,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R57")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -14038,7 +14038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05928c5d-0a51-44c3-9544-4b64dee77a2a")
-		(property "Reference" "R105"
+		(property "Reference" "R70"
 			(at 205.486 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14113,7 +14113,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R105")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -14131,7 +14131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "067ceb48-691e-4c21-b7ee-30d0e0d1ce3e")
-		(property "Reference" "R109"
+		(property "Reference" "R78"
 			(at 307.086 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14206,7 +14206,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R109")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -14224,7 +14224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f5dbac-53ec-42a9-b89a-583b39aec413")
-		(property "Reference" "C76"
+		(property "Reference" "C105"
 			(at 483.87 303.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14288,7 +14288,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C76")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -14306,7 +14306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06feb254-23cb-42f3-8f2a-f88d9b44142c")
-		(property "Reference" "C65"
+		(property "Reference" "C107"
 			(at 571.5 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,7 +14370,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C65")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -14388,7 +14388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "079c0aa2-c2b5-4b32-a534-60ecf5aa2106")
-		(property "Reference" "C114"
+		(property "Reference" "C88"
 			(at 308.61 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14452,7 +14452,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C114")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -14470,7 +14470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07c0acbb-9793-4038-b658-a68624159d79")
-		(property "Reference" "R112"
+		(property "Reference" "R83"
 			(at 362.204 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +14545,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R112")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -14562,7 +14562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0914db47-65d1-4cdc-ac31-a3428ab08958")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR074"
 			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14623,7 +14623,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR099")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14641,7 +14641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0942a59b-789a-4f46-9422-ca6bea8437dc")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0117"
 			(at 478.79 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -14702,7 +14702,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0108")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -14910,7 +14910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09c56dfc-4ed8-47d0-90c7-344e238004aa")
-		(property "Reference" "R42"
+		(property "Reference" "R54"
 			(at 82.042 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14985,7 +14985,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R42")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -15003,7 +15003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bd90620-8a7e-4f38-b1b4-4ead6ee65051")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0127"
 			(at 502.92 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -15064,7 +15064,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0141")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -15083,7 +15083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be2a471-6363-4b24-8046-55e9829fbd1b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR079"
 			(at 67.31 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15144,7 +15144,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR060")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15252,7 +15252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc6d979-7746-4028-aabb-5686dc400326")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0155"
 			(at 571.5 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -15312,7 +15312,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0159")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -15330,7 +15330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e33ca49-794f-430c-ba2f-10005397c64e")
-		(property "Reference" "J40"
+		(property "Reference" "J25"
 			(at 231.775 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15395,7 +15395,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J40")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -15413,7 +15413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11324c8e-531a-4948-aced-fc8382eda5ea")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR082"
 			(at 68.58 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -15474,7 +15474,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR087")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -15492,7 +15492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "119f9b34-910b-4835-88cd-0c40c1ca492b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0144"
 			(at 567.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15552,7 +15552,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0118")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -15570,7 +15570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1219d68a-23f4-4c5a-b146-89f42b887799")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR083"
 			(at 71.12 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15631,7 +15631,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR064")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -15649,7 +15649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1294de86-9f69-445a-b70e-a0c8c139b42b")
-		(property "Reference" "U20"
+		(property "Reference" "U19"
 			(at 524.51 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15821,7 +15821,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U20")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -15839,7 +15839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138fa29e-58ea-4fbb-ba98-949604bf9aa6")
-		(property "Reference" "C75"
+		(property "Reference" "C111"
 			(at 571.5 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +15903,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C75")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -15921,7 +15921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1391a4e4-c602-476f-907c-32cc7786234c")
-		(property "Reference" "U18"
+		(property "Reference" "U16"
 			(at 524.51 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16093,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U18")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -16111,7 +16111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "162f086b-195f-46f6-8f48-d48206b7a6a4")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0130"
 			(at 502.92 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16172,7 +16172,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0157")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -16189,7 +16189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17020460-5753-4b22-9f0a-fb47f9f4af56")
-		(property "Reference" "C138"
+		(property "Reference" "C76"
 			(at 254.254 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16253,7 +16253,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C138")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -16271,7 +16271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "172b2c80-9a89-4921-9310-8c51a022af33")
-		(property "Reference" "J54"
+		(property "Reference" "J29"
 			(at 282.575 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16336,7 +16336,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J54")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -16355,7 +16355,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "18c9e688-f1d2-4cd7-b8b5-5cb62be1aed3")
-		(property "Reference" "J21"
+		(property "Reference" "J3"
 			(at 46.355 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16443,7 +16443,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J21")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16461,7 +16461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18f2939e-c780-4f3e-8dc2-9bac9d83a237")
-		(property "Reference" "R56"
+		(property "Reference" "R40"
 			(at 43.434 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16536,7 +16536,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R56")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -16554,7 +16554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19081bde-8160-41fa-8bfb-69c67e0732e2")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR065"
 			(at 34.29 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16615,7 +16615,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR092")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -16633,7 +16633,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "19b0c7ab-9461-4060-8438-0f339cd441f1")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 50.8 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16720,7 +16720,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16738,7 +16738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b72e4a6-28f6-44eb-b5d6-fc496462f8b7")
-		(property "Reference" "J39"
+		(property "Reference" "J22"
 			(at 180.975 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16803,7 +16803,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J39")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -16820,7 +16820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdb2e8c-e6cb-4011-acf0-b218ebed5aa9")
-		(property "Reference" "C137"
+		(property "Reference" "C73"
 			(at 246.634 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16884,7 +16884,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C137")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -16901,7 +16901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d65ab9c-304d-4ed1-a0a0-18686a93e851")
-		(property "Reference" "C86"
+		(property "Reference" "C84"
 			(at 305.054 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16965,7 +16965,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C86")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -16983,7 +16983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d86fbc4-fe6b-4322-81b1-ee8d9ef0ea22")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0119"
 			(at 478.79 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -17044,7 +17044,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0155")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -17062,7 +17062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d9a6908-13ea-4052-aa98-5e1e5f4bc702")
-		(property "Reference" "J53"
+		(property "Reference" "J26"
 			(at 231.775 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17127,7 +17127,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J53")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -17145,7 +17145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea1fa7d-21e7-4c31-855b-6ca32bbfb418")
-		(property "Reference" "J34"
+		(property "Reference" "J20"
 			(at 180.975 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +17210,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J34")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -17228,7 +17228,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20a30b65-e6cc-470c-b1c3-05c4657c3a89")
-		(property "Reference" "J10"
+		(property "Reference" "J16"
 			(at 140.97 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,7 +17315,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J10")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -17333,7 +17333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22986026-b378-4136-9643-bfb09d3588dc")
-		(property "Reference" "J31"
+		(property "Reference" "J23"
 			(at 231.775 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17398,7 +17398,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J31")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -17415,7 +17415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "235411ee-6670-4ad6-904e-1ebca74ce0d7")
-		(property "Reference" "R90"
+		(property "Reference" "R86"
 			(at 492.76 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17477,7 +17477,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R90")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -17494,7 +17494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23777183-a30c-451d-8b93-55308fa586db")
-		(property "Reference" "C124"
+		(property "Reference" "C68"
 			(at 203.454 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17558,7 +17558,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C124")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -17576,7 +17576,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25314f77-31ec-4da8-8b0e-27a7998ed3d1")
-		(property "Reference" "J17"
+		(property "Reference" "J13"
 			(at 134.62 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17657,7 +17657,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J17")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -17675,7 +17675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28266b58-fdf7-452b-86e9-267b1660128f")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0134"
 			(at 556.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17735,7 +17735,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0131")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -17858,7 +17858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "293f876d-c021-45fa-9c9b-9ce67b8e6929")
-		(property "Reference" "R49"
+		(property "Reference" "R56"
 			(at 101.092 24.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17933,7 +17933,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R49")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -17951,7 +17951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1f69ea-4377-4bb3-a98b-2a9dedec6cdb")
-		(property "Reference" "U16"
+		(property "Reference" "U22"
 			(at 524.51 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18123,7 +18123,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U16")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -18141,7 +18141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2da5d7f0-37ff-44b3-b532-c9ce1b661f25")
-		(property "Reference" "R59"
+		(property "Reference" "R33"
 			(at 42.164 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18216,7 +18216,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R59")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -18234,7 +18234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dae0490-c8c4-4fc5-bc44-77d97427cb13")
-		(property "Reference" "J56"
+		(property "Reference" "J33"
 			(at 333.375 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18299,7 +18299,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J56")
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -18317,7 +18317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6866cf-4d45-4db4-a575-c1b47238f5a4")
-		(property "Reference" "U24"
+		(property "Reference" "U23"
 			(at 524.51 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18489,7 +18489,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U24")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -18507,7 +18507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e993b63-d40d-4928-af55-5c3fa5d67a2d")
-		(property "Reference" "J35"
+		(property "Reference" "J24"
 			(at 231.775 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18572,7 +18572,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J35")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -18590,7 +18590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9fc68e-3417-4fde-af55-c59faf4f981a")
-		(property "Reference" "C71"
+		(property "Reference" "C109"
 			(at 571.5 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18654,7 +18654,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C71")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -18672,7 +18672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f797b12-830a-4e11-ba7d-813393bf6a4c")
-		(property "Reference" "J37"
+		(property "Reference" "J32"
 			(at 333.375 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18737,7 +18737,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J37")
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -18755,7 +18755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb91b30-7edd-4c4c-a0e8-33c9f6854bea")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 40.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18816,7 +18816,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -18833,7 +18833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fdfe2d3-b19c-481f-9dc6-cc1f19b8eeac")
-		(property "Reference" "C143"
+		(property "Reference" "C87"
 			(at 305.054 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18897,7 +18897,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C143")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -18915,7 +18915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "303df784-03f4-47e1-aa2a-18b63e4effac")
-		(property "Reference" "C64"
+		(property "Reference" "C98"
 			(at 482.6 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18979,7 +18979,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C64")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -18996,7 +18996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303e6881-99a5-4145-82e0-3a90c55c96e8")
-		(property "Reference" "C147"
+		(property "Reference" "C96"
 			(at 355.854 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19060,7 +19060,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C147")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -19078,7 +19078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a1a813-ec27-4f6b-9746-5f246de4f10c")
-		(property "Reference" "C72"
+		(property "Reference" "C101"
 			(at 482.6 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19142,7 +19142,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C72")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -19160,7 +19160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3232726d-103d-4f7c-afb8-3b292e0dbba2")
-		(property "Reference" "R47"
+		(property "Reference" "R49"
 			(at 76.708 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19235,7 +19235,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R47")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -19253,7 +19253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36056f3c-ba0f-4921-a46b-2a52066db774")
-		(property "Reference" "C69"
+		(property "Reference" "C100"
 			(at 482.6 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19317,7 +19317,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C69")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -19335,7 +19335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "369d0832-1b75-4b59-8b90-7f7c8727d5ee")
-		(property "Reference" "R41"
+		(property "Reference" "R77"
 			(at 311.404 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19410,7 +19410,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R41")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -19428,7 +19428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36cdc406-69b2-42e4-95c6-caa421ee8cc5")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0129"
 			(at 502.92 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -19489,7 +19489,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0112")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -19507,7 +19507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3927e4fc-1382-4f3f-a3d9-13f4050dadc5")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR070"
 			(at 40.64 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -19568,7 +19568,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR058")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -19586,7 +19586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3962248a-ebaf-4ac2-a42b-4fcbef51ae5e")
-		(property "Reference" "C68"
+		(property "Reference" "C99"
 			(at 482.6 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19650,7 +19650,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C68")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -19767,7 +19767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a002ca8-32d3-4fe0-85b7-a04f13dd2cfe")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0113"
 			(at 478.79 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19828,7 +19828,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0137")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -19846,7 +19846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a41063d-591e-4d1a-ac44-2e40fa52cfd8")
-		(property "Reference" "R38"
+		(property "Reference" "R80"
 			(at 362.204 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19921,7 +19921,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R38")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -19939,7 +19939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a637abc-e027-45ca-bd75-e4bf25e52879")
-		(property "Reference" "R40"
+		(property "Reference" "R73"
 			(at 260.604 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20014,7 +20014,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R40")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -20031,7 +20031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b10a432-9a41-492f-a599-29f588326007")
-		(property "Reference" "C139"
+		(property "Reference" "C77"
 			(at 254.254 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20095,7 +20095,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C139")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -20113,7 +20113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1edd77-a468-40ff-b8e1-587c276206de")
-		(property "Reference" "J38"
+		(property "Reference" "J21"
 			(at 180.975 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20178,7 +20178,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J38")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -20195,7 +20195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3da2d520-1993-49f2-bd2a-c82709840f32")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR090"
 			(at 118.11 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20256,7 +20256,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR082")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -20274,7 +20274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0370ec-7e11-42a8-8c61-07a49128db9b")
-		(property "Reference" "C77"
+		(property "Reference" "C114"
 			(at 572.77 300.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20338,7 +20338,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C77")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -20356,7 +20356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41b96652-a387-4d0a-b3c4-a0ca4a6501b4")
-		(property "Reference" "R65"
+		(property "Reference" "R60"
 			(at 131.064 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,7 +20431,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R65")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -20528,7 +20528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c1e7d2-7130-43e7-91f3-f0058e6768fe")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0156"
 			(at 567.69 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -20588,7 +20588,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0160")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -20606,7 +20606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42efa26b-7154-4455-8df9-4ed28a14399a")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0153"
 			(at 571.5 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +20666,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0111")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -20683,7 +20683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4390cfbb-7a7b-4f1c-bf61-abaa9f100082")
-		(property "Reference" "R100"
+		(property "Reference" "R91"
 			(at 492.76 329.438 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20745,7 +20745,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R100")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -20762,7 +20762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45cc6121-292a-448c-a153-0fa2af3de521")
-		(property "Reference" "R22"
+		(property "Reference" "R43"
 			(at 41.148 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20837,7 +20837,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R22")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -20855,7 +20855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46d71a1a-0a2e-4fa3-b7c3-9cc738ffb1fb")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0135"
 			(at 556.26 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20915,7 +20915,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0132")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -20933,7 +20933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4707f901-0911-4ff6-94af-3e6fcb4d8214")
-		(property "Reference" "C67"
+		(property "Reference" "C106"
 			(at 571.5 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20997,7 +20997,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C67")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -21015,7 +21015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c88288-6fcb-4b4c-b22a-2880c5c3e5f6")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0108"
 			(at 478.79 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21075,7 +21075,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0114")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -21093,7 +21093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f419ec-e131-45ed-b309-85ce9f2b1d48")
-		(property "Reference" "J57"
+		(property "Reference" "J34"
 			(at 333.375 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21158,7 +21158,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J57")
+					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -21175,7 +21175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4812c319-6bd7-4dcb-86ec-0cbb6338b641")
-		(property "Reference" "C94"
+		(property "Reference" "C85"
 			(at 305.054 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21239,7 +21239,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C94")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -21256,7 +21256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48deabd3-3e5b-4867-9aac-132942169536")
-		(property "Reference" "R89"
+		(property "Reference" "R93"
 			(at 548.64 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21318,7 +21318,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R89")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -21335,7 +21335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a1040ab-4961-4c41-b506-9b6ca60809c0")
-		(property "Reference" "C125"
+		(property "Reference" "C62"
 			(at 195.834 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21399,7 +21399,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C125")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -21417,7 +21417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a673b0c-f5f5-47b7-a8b6-f63cfda6d689")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0136"
 			(at 556.26 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21477,7 +21477,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0143")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -21495,7 +21495,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4bdc4238-1dd1-474b-86f8-8df18e8f3cc2")
-		(property "Reference" "J22"
+		(property "Reference" "J15"
 			(at 139.7 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21573,7 +21573,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J22")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -21590,7 +21590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd893cd-1ba5-4ff8-af19-a12a57b43384")
-		(property "Reference" "C90"
+		(property "Reference" "C67"
 			(at 203.454 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21654,7 +21654,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C90")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -21671,7 +21671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d84213f-7d35-4281-b9ef-f85384e36b85")
-		(property "Reference" "C142"
+		(property "Reference" "C86"
 			(at 305.054 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21735,7 +21735,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C142")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -21753,7 +21753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f7efa60-4e60-4c7d-8121-fac47a3d1308")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0131"
 			(at 504.19 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -21814,7 +21814,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0151")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -21831,7 +21831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ad8630-5508-425b-b5bb-35081f35ba94")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 33.528 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21906,7 +21906,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -21924,7 +21924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51cea790-0fb7-49c0-9c05-8e68f475526f")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0126"
 			(at 502.92 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21985,7 +21985,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0130")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -22002,7 +22002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51de4fbb-c4d5-468a-979b-54455419da42")
-		(property "Reference" "R86"
+		(property "Reference" "R85"
 			(at 492.76 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22064,7 +22064,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R86")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -22081,7 +22081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "533cfbef-e6dd-4625-b206-500a85c29d03")
-		(property "Reference" "R95"
+		(property "Reference" "R89"
 			(at 492.76 220.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22143,7 +22143,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R95")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -22161,7 +22161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a69f97-8506-4155-b76b-958f3a3a9cea")
-		(property "Reference" "J36"
+		(property "Reference" "J28"
 			(at 282.575 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22226,7 +22226,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J36")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -22244,7 +22244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "547ce5c6-4f6d-47cd-a425-8495faebcc8a")
-		(property "Reference" "C73"
+		(property "Reference" "C102"
 			(at 482.6 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22308,7 +22308,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C73")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -22326,7 +22326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54bbceaa-63a4-4efa-bb8e-087e03233bd2")
-		(property "Reference" "R70"
+		(property "Reference" "R65"
 			(at 127.254 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22401,7 +22401,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R70")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -22419,7 +22419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "563e2d86-87ef-4c47-9dbb-2a15bf4bcb93")
-		(property "Reference" "J30"
+		(property "Reference" "J19"
 			(at 180.975 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22484,7 +22484,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J30")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -22502,7 +22502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f34f89-872e-4195-8589-566210eb545a")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0138"
 			(at 556.26 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -22562,7 +22562,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0109")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -22579,7 +22579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57a66089-df27-4809-957e-c8f7da2e30dd")
-		(property "Reference" "C132"
+		(property "Reference" "C90"
 			(at 348.234 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22643,7 +22643,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C132")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -22661,7 +22661,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "57e6a0ab-eba9-4bab-9179-bc4328ad6f2a")
-		(property "Reference" "J14"
+		(property "Reference" "J8"
 			(at 91.44 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22748,7 +22748,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J14")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -22766,7 +22766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "592adb44-2e46-45a6-952e-66b2234df3fa")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0121"
 			(at 480.06 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -22827,7 +22827,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0149")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -22845,7 +22845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a77c79b-0cbc-4462-a1c5-89cc339eba18")
-		(property "Reference" "R107"
+		(property "Reference" "R74"
 			(at 256.286 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22920,7 +22920,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R107")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -22938,7 +22938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af6ce4b-2905-4712-869a-afa75a65000a")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR069"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22999,7 +22999,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR085")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -23017,7 +23017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b9d1d63-b595-42ea-aa5c-60dc864e4bc2")
-		(property "Reference" "R60"
+		(property "Reference" "R34"
 			(at 42.164 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23092,7 +23092,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R60")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -23110,7 +23110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cd7e353-0883-403d-ac57-e7f9217c3cca")
-		(property "Reference" "R53"
+		(property "Reference" "R37"
 			(at 43.434 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23185,7 +23185,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R53")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -23203,7 +23203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d35d322-2403-43cb-a2fc-962b584a8b2e")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0157"
 			(at 572.77 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -23263,7 +23263,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0153")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -23281,7 +23281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc944cd-bb44-4eb4-9c15-b28f0d3e5b22")
-		(property "Reference" "U22"
+		(property "Reference" "U21"
 			(at 524.51 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23453,7 +23453,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U22")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -23472,7 +23472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4e17e5-c866-46e8-b041-c469d862df76")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR078"
 			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -23532,7 +23532,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR057")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -23550,7 +23550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6274215a-fa6d-4ffb-91ff-24613a19a899")
-		(property "Reference" "J2"
+		(property "Reference" "J10"
 			(at 93.345 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23647,7 +23647,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J2")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -23664,7 +23664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63fd7163-d494-418c-9f1c-1702d7ba05cc")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR084"
 			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -23725,7 +23725,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR086")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -23743,7 +23743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6452530e-4787-4895-875e-f92acd049f0a")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0115"
 			(at 478.79 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -23804,7 +23804,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0139")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -23822,7 +23822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "659f64d8-e518-4d18-b78a-170f5d1a395a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0147"
 			(at 571.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -23882,7 +23882,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0135")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -23900,7 +23900,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66f18fe3-e061-4741-9793-27d07f73b41f")
-		(property "Reference" "J18"
+		(property "Reference" "J11"
 			(at 105.41 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23978,7 +23978,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J18")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -23995,7 +23995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67717f7f-dfcb-474d-9a4c-b1d0a71c5092")
-		(property "Reference" "C140"
+		(property "Reference" "C82"
 			(at 297.434 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24059,7 +24059,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C140")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -24076,7 +24076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ae25174-1bc3-4c73-aa57-73f8469e0c61")
-		(property "Reference" "C126"
+		(property "Reference" "C70"
 			(at 246.634 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24140,7 +24140,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C126")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -24158,7 +24158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6e052a-e9b9-407a-8e6d-afd131bd3ace")
-		(property "Reference" "U21"
+		(property "Reference" "U20"
 			(at 524.51 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24330,7 +24330,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U21")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -24348,7 +24348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d629f59-1674-47ac-a9b9-5b95863cd03c")
-		(property "Reference" "C79"
+		(property "Reference" "C113"
 			(at 571.5 336.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24412,7 +24412,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C79")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -24429,7 +24429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d9cc39b-cc75-4d7a-b700-8adf4581961e")
-		(property "Reference" "R85"
+		(property "Reference" "R99"
 			(at 548.64 251.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24491,7 +24491,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R85")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -24509,7 +24509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f95052f-f927-4010-9ce4-6440fb126b70")
-		(property "Reference" "R108"
+		(property "Reference" "R75"
 			(at 256.54 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24584,7 +24584,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R108")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -24602,7 +24602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d0d0f2-af08-4327-b44a-ec52e9c14301")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0149"
 			(at 571.5 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -24662,7 +24662,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0145")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -24679,7 +24679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70d1a2f1-e567-4be9-a615-f5203129b1b9")
-		(property "Reference" "C127"
+		(property "Reference" "C80"
 			(at 297.434 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24743,7 +24743,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C127")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -24761,7 +24761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a7872d-bca5-446b-a9bc-ed789d61baae")
-		(property "Reference" "R36"
+		(property "Reference" "R72"
 			(at 260.604 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24836,7 +24836,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R36")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -24853,7 +24853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74253d5b-4084-473b-919d-36f549c59f75")
-		(property "Reference" "C134"
+		(property "Reference" "C65"
 			(at 195.834 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24917,7 +24917,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C134")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -24935,7 +24935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74cb5ed6-f87c-43d5-929e-918183098c85")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0141"
 			(at 571.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -24995,7 +24995,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0123")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -25012,7 +25012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74d9476a-eb01-4c05-b226-587673c4aec0")
-		(property "Reference" "R84"
+		(property "Reference" "R90"
 			(at 492.76 254.508 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25074,7 +25074,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R84")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -25091,7 +25091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "755c43ca-0080-419b-9af9-2cb1b56ecdb2")
-		(property "Reference" "R92"
+		(property "Reference" "R95"
 			(at 548.64 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25153,7 +25153,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R92")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -25170,7 +25170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78463696-7d29-4fb6-baa7-1d4891e9e556")
-		(property "Reference" "R96"
+		(property "Reference" "R97"
 			(at 548.64 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25232,7 +25232,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R96")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -25249,7 +25249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cecfc1d-327f-4680-a302-e2d15f200f42")
-		(property "Reference" "R20"
+		(property "Reference" "R47"
 			(at 60.198 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25324,7 +25324,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R20")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -25342,7 +25342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d08197d-edba-4c19-9d1e-48f8eb8073ee")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR089"
 			(at 114.3 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -25403,7 +25403,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -25421,7 +25421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7fe782-8dcd-46b6-b225-1ad074390782")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR077"
 			(at 66.04 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25482,7 +25482,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR089")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -25499,7 +25499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806b96e2-f1a4-4c6c-9613-fe6b8596ffaa")
-		(property "Reference" "R94"
+		(property "Reference" "R88"
 			(at 492.76 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25561,7 +25561,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R94")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -25579,7 +25579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80929434-eef2-42a2-ba85-ee279dadcbe9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0142"
 			(at 567.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25639,7 +25639,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0124")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -25657,7 +25657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "811de409-455f-415a-8680-246c1eefa0da")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR085"
 			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -25718,7 +25718,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR074")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -25735,7 +25735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8309d594-ff1c-4494-b008-80bc2f009523")
-		(property "Reference" "C141"
+		(property "Reference" "C83"
 			(at 297.434 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25799,7 +25799,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C141")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -25817,7 +25817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8377536a-da6a-4845-aeae-3aeba367935c")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR068"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25878,7 +25878,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR080")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -25896,7 +25896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84598ca8-2fa7-476a-8525-eb4aaa47d2d3")
-		(property "Reference" "J55"
+		(property "Reference" "J30"
 			(at 282.575 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25961,7 +25961,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J55")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -25979,7 +25979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "846365fd-c5ee-49fd-84bc-300526949bc5")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0110"
 			(at 478.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -26039,7 +26039,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0126")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -26056,7 +26056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "854713d6-41da-4f2b-a4ca-a431d041e459")
-		(property "Reference" "C96"
+		(property "Reference" "C94"
 			(at 355.854 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26120,7 +26120,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C96")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -26138,7 +26138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "857f89ae-1f40-4839-9975-a619c21a0724")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0124"
 			(at 502.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -26199,7 +26199,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0115")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -26217,7 +26217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85e74ec5-af3f-4d90-9614-41b566c4f2b2")
-		(property "Reference" "R66"
+		(property "Reference" "R61"
 			(at 131.064 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26292,7 +26292,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R66")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -26310,7 +26310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8744d422-0c0a-42fa-9016-d0f9beded3d5")
-		(property "Reference" "R64"
+		(property "Reference" "R59"
 			(at 131.064 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26385,7 +26385,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R64")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -26403,7 +26403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ac89dd-636f-4cda-b801-02a7dd44eea2")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0151"
 			(at 571.5 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -26463,7 +26463,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0147")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -26481,7 +26481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890761d4-07b0-4269-9b54-cd92f92b27ab")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR088"
 			(at 88.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26542,7 +26542,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR070")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -26560,7 +26560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8981fbc0-189e-4f5d-9650-835d26751645")
-		(property "Reference" "C66"
+		(property "Reference" "C97"
 			(at 482.6 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26624,7 +26624,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C66")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -26642,7 +26642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a2db1ef-0cc3-4370-906b-bfaed11ffb39")
-		(property "Reference" "R45"
+		(property "Reference" "R64"
 			(at 130.302 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26717,7 +26717,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R45")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -26735,7 +26735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a3a1061-4a4c-4f57-b661-bd4b1b3b7c4e")
-		(property "Reference" "R110"
+		(property "Reference" "R79"
 			(at 307.086 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26810,7 +26810,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R110")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -26828,7 +26828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a4697f3-17a1-4656-a01f-bd9334bb8bca")
-		(property "Reference" "R46"
+		(property "Reference" "R50"
 			(at 81.534 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26903,7 +26903,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R46")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -26921,7 +26921,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b3c5240-ca5d-4786-96ed-3b06f9459c60")
-		(property "Reference" "J23"
+		(property "Reference" "J18"
 			(at 158.75 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27002,7 +27002,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J23")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -27020,7 +27020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bbe4935-7726-4948-ae7e-5952af55cd81")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0132"
 			(at 556.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -27080,7 +27080,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0122")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -27098,7 +27098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bf31adb-eb9b-4354-bace-7ad6a08ba064")
-		(property "Reference" "R50"
+		(property "Reference" "R57"
 			(at 101.092 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27173,7 +27173,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R50")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -27191,7 +27191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cf7f1e6-8bb0-4793-9e43-3169eb1c10c4")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0154"
 			(at 567.69 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -27251,7 +27251,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0110")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -27269,7 +27269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e536bd1-7177-4394-9679-084a0bf73231")
-		(property "Reference" "C63"
+		(property "Reference" "C112"
 			(at 571.5 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27333,7 +27333,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C63")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -27350,7 +27350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e658406-f1f2-41d5-8fe9-dcb362202b64")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 67.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27411,7 +27411,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -27428,7 +27428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e77135a-e1b9-4cab-be71-7d93cc905bb6")
-		(property "Reference" "R23"
+		(property "Reference" "R44"
 			(at 48.768 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27503,7 +27503,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R23")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -27521,7 +27521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "913c8a2a-9143-4cd0-b723-cfc603be8c5b")
-		(property "Reference" "R63"
+		(property "Reference" "R58"
 			(at 131.064 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27596,7 +27596,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R63")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -27614,7 +27614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "918a67d2-c1e6-4929-b8ae-0d92636c5ecb")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0118"
 			(at 478.79 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -27674,7 +27674,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0107")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -27691,7 +27691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9240eded-f83e-470f-bcef-c6bf4ec15c91")
-		(property "Reference" "R101"
+		(property "Reference" "R100"
 			(at 548.64 326.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27753,7 +27753,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R101")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -27771,7 +27771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "924ca057-7a2a-4d8b-80bf-a5933dc8c5be")
-		(property "Reference" "R67"
+		(property "Reference" "R66"
 			(at 142.494 23.114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27846,7 +27846,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R67")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -27863,7 +27863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96bc5530-c769-4738-b26d-36fd942872fb")
-		(property "Reference" "R99"
+		(property "Reference" "R101"
 			(at 549.91 291.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27925,7 +27925,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R99")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -27943,7 +27943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96ff689e-c59d-43f6-b832-32b4cb7e9cda")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0128"
 			(at 502.92 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -28004,7 +28004,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0142")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -28022,7 +28022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97bba7ae-ab70-4427-9aa2-20fb430bf4c5")
-		(property "Reference" "R104"
+		(property "Reference" "R81"
 			(at 362.204 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28097,7 +28097,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R104")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -28115,7 +28115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "985e3196-a182-4e66-87f1-b9f5a2a9b121")
-		(property "Reference" "R39"
+		(property "Reference" "R69"
 			(at 209.804 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28190,7 +28190,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R39")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -28208,7 +28208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99c03961-6c6a-4b1f-8733-4cd2fb594656")
-		(property "Reference" "R37"
+		(property "Reference" "R76"
 			(at 311.404 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28283,7 +28283,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R37")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -28301,7 +28301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a818863-1e09-4514-885f-bc19c51f6e4b")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0143"
 			(at 571.5 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -28361,7 +28361,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0117")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -28379,7 +28379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aa47a69-5851-428e-94c9-220c68a7f111")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0105"
 			(at 478.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -28440,7 +28440,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0119")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -28458,7 +28458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b6632e8-55b5-4fec-9543-f7b1630f13c1")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0100"
 			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -28519,7 +28519,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR059")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -28537,7 +28537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bbfbda8-e149-411e-9a07-6e9f12cc2fae")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0152"
 			(at 567.69 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -28597,7 +28597,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0148")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -28614,7 +28614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bd48ece-1669-4e8c-bccf-7aa6a737139f")
-		(property "Reference" "C88"
+		(property "Reference" "C93"
 			(at 355.854 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28678,7 +28678,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C88")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -28696,7 +28696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bfe9bc6-e701-4e8c-a948-4de5fd7bdaec")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0140"
 			(at 557.53 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -28756,7 +28756,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0152")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -28773,7 +28773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dd0ee87-2fec-4759-ad9f-026fbc44d8db")
-		(property "Reference" "R93"
+		(property "Reference" "R96"
 			(at 548.64 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28835,7 +28835,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R93")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -28853,7 +28853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ddad5df-862b-410c-adc1-f102b09289e6")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR072"
 			(at 40.64 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28914,7 +28914,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -28932,7 +28932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f433723-eea6-4765-aa66-72d72d7b9c1c")
-		(property "Reference" "C74"
+		(property "Reference" "C110"
 			(at 571.5 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28996,7 +28996,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C74")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -29014,7 +29014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f78657f-8a5a-4d0f-9e17-d10cfbed96e5")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR092"
 			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -29075,7 +29075,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR063")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -29092,7 +29092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f92c063-5964-4ff5-9c4c-e439d1359565")
-		(property "Reference" "C133"
+		(property "Reference" "C64"
 			(at 195.834 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29156,7 +29156,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C133")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -29174,7 +29174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a007bce5-8627-4f0e-959c-23e0683c2e39")
-		(property "Reference" "R43"
+		(property "Reference" "R55"
 			(at 82.042 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29249,7 +29249,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R43")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -29267,7 +29267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1d41c4d-ee4a-47a1-aa58-9c0201696e82")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR099"
 			(at 138.43 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -29328,7 +29328,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR055")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -29346,7 +29346,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a323f1a8-70cf-4b36-896c-1dfc64415753")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 138.43 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29433,7 +29433,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -29450,7 +29450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a36336bc-808f-44c2-8df8-9922fbdc2e73")
-		(property "Reference" "R19"
+		(property "Reference" "R45"
 			(at 48.26 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29525,7 +29525,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R19")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -29543,7 +29543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3e3a72b-fb72-4ca9-abb4-15a5376a153b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0145"
 			(at 571.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -29603,7 +29603,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0133")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -29621,7 +29621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a407a3d9-31b3-4f81-b50c-1432f7f6e8f6")
-		(property "Reference" "R106"
+		(property "Reference" "R71"
 			(at 205.74 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29696,7 +29696,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R106")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -29713,7 +29713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a479e87f-22fe-402c-957f-bf0d0f2e8efe")
-		(property "Reference" "C128"
+		(property "Reference" "C89"
 			(at 348.234 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29777,7 +29777,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C128")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -29795,7 +29795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51bf05b-384e-42e4-a5db-5ac9665387fd")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0116"
 			(at 478.79 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -29855,7 +29855,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0140")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -29873,7 +29873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a678741c-0507-4a84-aa6a-0f9622cbc602")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR095"
 			(at 128.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -29934,7 +29934,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR078")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -29952,7 +29952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6c17ffd-275e-475f-a62d-e9d57989f796")
-		(property "Reference" "R52"
+		(property "Reference" "R36"
 			(at 43.434 29.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30027,7 +30027,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R52")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -30136,7 +30136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9e53218-431e-4318-bcc0-dcb0dfd2200b")
-		(property "Reference" "R62"
+		(property "Reference" "R52"
 			(at 85.344 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +30211,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R62")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -30229,7 +30229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa07b744-fb22-4812-ab53-90851169383f")
-		(property "Reference" "R61"
+		(property "Reference" "R51"
 			(at 85.344 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30304,7 +30304,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R61")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -30321,7 +30321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd4612e-0c2a-4022-988e-e99f9c242e1e")
-		(property "Reference" "R98"
+		(property "Reference" "R92"
 			(at 494.03 293.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30383,7 +30383,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R98")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -30401,7 +30401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abfdf183-2aee-4c25-90bb-3963f43374c7")
-		(property "Reference" "R54"
+		(property "Reference" "R38"
 			(at 43.434 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30476,7 +30476,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R54")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -30494,7 +30494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac04fc84-7ca7-454c-8cf8-8e0de532d870")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR067"
 			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -30555,7 +30555,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR076")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -30573,7 +30573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6b85e0-acfb-4bde-b6cd-5bd54f4ee651")
-		(property "Reference" "U12"
+		(property "Reference" "U15"
 			(at 67.6911 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30663,7 +30663,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U12")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -30681,7 +30681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8db8fe-b778-4e03-adac-cb3b8331d2b2")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR086"
 			(at 81.28 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -30742,7 +30742,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR077")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -30851,7 +30851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0f502a2-7d9c-48e4-a847-f76b96568c50")
-		(property "Reference" "R55"
+		(property "Reference" "R39"
 			(at 43.434 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30926,7 +30926,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R55")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -30943,7 +30943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b14e7d4d-c6f9-456f-b30f-fa0f82053db4")
-		(property "Reference" "R87"
+		(property "Reference" "R94"
 			(at 548.64 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31005,7 +31005,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R87")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -31022,7 +31022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b249ad7a-c3ca-4c16-be39-71321a3817b2")
-		(property "Reference" "C82"
+		(property "Reference" "C66"
 			(at 203.454 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31086,7 +31086,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C82")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -31104,7 +31104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3268e95-6d81-4634-a2e6-d4b3535a6b18")
-		(property "Reference" "R111"
+		(property "Reference" "R82"
 			(at 357.886 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31179,7 +31179,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R111")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -31197,7 +31197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72ee443-489f-4ef6-819a-e9dcf76e4cfc")
-		(property "Reference" "J33"
+		(property "Reference" "J31"
 			(at 333.375 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31262,7 +31262,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J33")
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -31279,7 +31279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7e3ba6f-297b-4f11-83ee-4f107bcec366")
-		(property "Reference" "R88"
+		(property "Reference" "R84"
 			(at 492.76 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31341,7 +31341,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R88")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -31358,7 +31358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba9c7191-0802-45ae-b4c3-956448daf203")
-		(property "Reference" "C130"
+		(property "Reference" "C71"
 			(at 246.634 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31422,7 +31422,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C130")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -31440,7 +31440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb9fe17-b5ce-4a71-9cc8-2d52d70c1138")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0101"
 			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -31501,7 +31501,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR093")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -31610,7 +31610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd9e9800-a3e2-4377-8fe9-ad674cfdd4b8")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0102"
 			(at 148.59 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -31671,7 +31671,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR094")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -31689,7 +31689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6e4916-fbb8-46af-8e6e-468766623ee2")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0112"
 			(at 478.79 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -31749,7 +31749,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0128")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -31767,7 +31767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf188d6c-cbf4-4364-88ec-6d4ea273c051")
-		(property "Reference" "J32"
+		(property "Reference" "J27"
 			(at 282.575 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31832,7 +31832,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J32")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -31850,7 +31850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf55fc6b-8ff8-4e39-81c1-f188327fc8b1")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 85.09 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31923,7 +31923,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -31941,7 +31941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c124eba6-18f7-47d3-9b45-2fe437aa1e9e")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0106"
 			(at 478.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -32001,7 +32001,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0120")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -32019,7 +32019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c14d27ae-8fb6-412d-bb5a-eddbb34eb43b")
-		(property "Reference" "C78"
+		(property "Reference" "C104"
 			(at 482.6 339.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32083,7 +32083,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C78")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -32101,7 +32101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ec77e9-a94b-481b-b13e-eb6ae04da896")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0125"
 			(at 502.92 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -32162,7 +32162,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0129")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -32179,7 +32179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c45c1a63-b54e-467f-b311-890aa16162d2")
-		(property "Reference" "R25"
+		(property "Reference" "R48"
 			(at 64.008 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32254,7 +32254,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R25")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -32408,7 +32408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4e36f05-37c6-4738-bd8b-2978dc899125")
-		(property "Reference" "R35"
+		(property "Reference" "R68"
 			(at 209.804 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32483,7 +32483,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R35")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -32500,7 +32500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c630ea5c-a39b-4c69-b664-863f14f7ccb1")
-		(property "Reference" "C135"
+		(property "Reference" "C69"
 			(at 203.454 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32564,7 +32564,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C135")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -32582,7 +32582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c66d8db5-72ca-4785-af80-80bd893ed88d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR093"
 			(at 124.46 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -32643,7 +32643,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR066")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -32661,7 +32661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7620e4c-942c-45b0-ba23-f0ab480609e4")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0158"
 			(at 568.96 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -32721,7 +32721,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0154")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -32738,7 +32738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7d6510c-f79f-43e8-9257-9ff2eee6570c")
-		(property "Reference" "C146"
+		(property "Reference" "C95"
 			(at 355.854 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32802,7 +32802,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C146")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -32820,7 +32820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca408961-e181-4023-bc09-9be4eecc3f4a")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR087"
 			(at 82.55 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -32881,7 +32881,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR083")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -32899,7 +32899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca44fd6c-e95d-4a16-a938-f59f6918a116")
-		(property "Reference" "R69"
+		(property "Reference" "R62"
 			(at 133.604 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32974,7 +32974,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R69")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -32992,7 +32992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca45a37a-4dca-47ae-b97d-46954845afe4")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR076"
 			(at 55.88 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -33053,7 +33053,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR090")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -33071,7 +33071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafc8b2f-47ca-463a-b210-06e7aefa13af")
-		(property "Reference" "C70"
+		(property "Reference" "C108"
 			(at 571.5 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33135,7 +33135,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C70")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -33153,7 +33153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb8440f1-4513-4e3d-8705-86817ef8c8f6")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0114"
 			(at 478.79 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -33213,7 +33213,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0138")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -33231,7 +33231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8ccd83-7b20-4ac5-8737-f250b8cba1ff")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0120"
 			(at 478.79 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -33291,7 +33291,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0156")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -33391,7 +33391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d277f86d-8fa0-4f4f-aa49-faeeb1398fb3")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0137"
 			(at 556.26 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -33451,7 +33451,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0144")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -33469,7 +33469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d349c1d2-e561-41ba-b10c-05f446109220")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0148"
 			(at 567.69 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -33529,7 +33529,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0136")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -33546,7 +33546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d37e9434-d34a-4b6a-997d-68caaab6ab6f")
-		(property "Reference" "R91"
+		(property "Reference" "R87"
 			(at 492.76 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33608,7 +33608,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R91")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -33626,7 +33626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d39a985b-ec3d-4c3e-a9f8-f8cc0422afd4")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR094"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -33687,7 +33687,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR075")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -33705,7 +33705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59144fb-4b94-4fb0-a2bf-5bc6c45ba197")
-		(property "Reference" "U19"
+		(property "Reference" "U18"
 			(at 524.51 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33877,7 +33877,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "U19")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -33894,7 +33894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d59a2909-5503-4d51-bd64-97890d806e9e")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 68.58 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -33955,7 +33955,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -33972,7 +33972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d66c73f1-a3b6-48b0-8e81-34fb561f3e78")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 67.31 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -34032,7 +34032,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -34049,7 +34049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6e3acc9-f5db-4eac-beb4-fb7d045bea10")
-		(property "Reference" "C129"
+		(property "Reference" "C63"
 			(at 195.834 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34113,7 +34113,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C129")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -34131,7 +34131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9523c66-7a49-4768-8f6c-63f120c026b2")
-		(property "Reference" "R58"
+		(property "Reference" "R42"
 			(at 43.434 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34206,7 +34206,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R58")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -34224,7 +34224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da24fbde-117c-4774-b427-0c09045052e9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR066"
 			(at 38.1 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -34285,7 +34285,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR073")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -34303,7 +34303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da25f6ca-349e-48ff-8a6b-fbfcb60038a6")
-		(property "Reference" "R48"
+		(property "Reference" "R53"
 			(at 77.724 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34378,7 +34378,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R48")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -34396,7 +34396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daccd8d7-0ebb-4c47-b5f9-defbc0a3ee90")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR097"
 			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -34457,7 +34457,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR072")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -34474,7 +34474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de7b6ce5-43dc-4895-864b-fba9aef7a023")
-		(property "Reference" "R97"
+		(property "Reference" "R98"
 			(at 548.64 217.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34536,7 +34536,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R97")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -34553,7 +34553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb9eb3e-10b8-47cc-b482-cd5118599664")
-		(property "Reference" "C144"
+		(property "Reference" "C91"
 			(at 348.234 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34617,7 +34617,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C144")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -34635,7 +34635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e158c35f-48a1-4654-97da-4a101208eddf")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0123"
 			(at 502.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -34696,7 +34696,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -34713,7 +34713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1750b43-c7e1-4278-83ff-218278d8045d")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0104"
 			(at 252.73 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -34773,7 +34773,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0164")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -34791,7 +34791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e19a7a5b-b767-40a8-8c29-d989666d5954")
-		(property "Reference" "R44"
+		(property "Reference" "R63"
 			(at 130.302 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34866,7 +34866,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R44")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -34884,7 +34884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1dff597-392d-4306-a1e7-0f64f96e835a")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0111"
 			(at 478.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -34945,7 +34945,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0127")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -34962,7 +34962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e294e2ff-b5f3-421d-8b5a-e573bf97e108")
-		(property "Reference" "C145"
+		(property "Reference" "C92"
 			(at 348.234 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35026,7 +35026,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C145")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -35044,7 +35044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5bbbd6a-00dc-4fe5-bf64-c4bb6b4e0954")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR098"
 			(at 130.81 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -35105,7 +35105,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR084")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -35122,7 +35122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8756494-0f25-49e1-85a2-30ffcb080775")
-		(property "Reference" "C136"
+		(property "Reference" "C72"
 			(at 246.634 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35186,7 +35186,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C136")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -35204,7 +35204,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea9c26c8-9d9c-432d-997a-97a609a69eac")
-		(property "Reference" "J24"
+		(property "Reference" "J6"
 			(at 62.23 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35271,7 +35271,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J24")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -35289,7 +35289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef0db36-fc92-4f31-b538-2dcc612de9e2")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0150"
 			(at 567.69 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -35349,7 +35349,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0146")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -35367,7 +35367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef958abc-61b6-437e-8cb7-fd609803b10b")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0146"
 			(at 567.69 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -35427,7 +35427,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0134")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -35445,7 +35445,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f075165f-5627-4640-aaff-b6f12c05b033")
-		(property "Reference" "J20"
+		(property "Reference" "J12"
 			(at 108.585 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35518,7 +35518,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J20")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -35536,7 +35536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3547401-c434-484f-9042-f93f08d43893")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0133"
 			(at 556.26 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -35596,7 +35596,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0116")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -35613,7 +35613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f59cd4-acc9-462d-8ca3-6ed1538b45ca")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0103"
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -35674,7 +35674,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0163")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -35691,7 +35691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4179783-3596-4364-a378-5d6b7d1dfcd0")
-		(property "Reference" "C131"
+		(property "Reference" "C81"
 			(at 297.434 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35755,7 +35755,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C131")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -35773,7 +35773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f421df6e-6286-435b-ab15-ba2544dd61e1")
-		(property "Reference" "R68"
+		(property "Reference" "R67"
 			(at 142.494 25.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35848,7 +35848,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R68")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -35866,7 +35866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f510e4fb-0d88-41f1-99df-d62924c08e2f")
-		(property "Reference" "R51"
+		(property "Reference" "R35"
 			(at 43.434 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35941,7 +35941,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "R51")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -35959,7 +35959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54465b7-550c-4ee4-864a-4f052b286944")
-		(property "Reference" "C113"
+		(property "Reference" "C79"
 			(at 293.37 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36023,7 +36023,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C113")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -36041,7 +36041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ebe56d-7ded-40e6-89ef-1ff00480f98c")
-		(property "Reference" "C62"
+		(property "Reference" "C103"
 			(at 482.6 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36105,7 +36105,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C62")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -36123,7 +36123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b6f839-3f52-4c88-9693-0d32d87c09c3")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0122"
 			(at 480.06 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -36183,7 +36183,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0150")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -36201,7 +36201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e0ca1f-a359-4830-842b-21dbebd8d735")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR075"
 			(at 55.88 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -36262,7 +36262,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0100")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -36280,7 +36280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8f32565-0eae-4d4e-9119-43ade59e6fa8")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0107"
 			(at 478.79 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -36341,7 +36341,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0113")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -36359,7 +36359,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f95d24d3-ac0f-4149-b43c-286278b3ff43")
-		(property "Reference" "J19"
+		(property "Reference" "J7"
 			(at 76.2 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36430,7 +36430,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J19")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -36448,7 +36448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa35368f-6627-42b1-a184-53dafa2bbf15")
-		(property "Reference" "C112"
+		(property "Reference" "C78"
 			(at 278.13 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36512,7 +36512,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C112")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -36529,7 +36529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6953be-a97f-44fd-9f3e-784229e21db6")
-		(property "Reference" "C92"
+		(property "Reference" "C75"
 			(at 254.254 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36593,7 +36593,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "C92")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -36611,7 +36611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc0078e4-0a83-4c49-8c3c-ee83a797ca14")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0109"
 			(at 478.79 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -36672,7 +36672,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR0125")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -36690,7 +36690,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc551273-c105-492b-bbb2-9a1d38e730ee")
-		(property "Reference" "J13"
+		(property "Reference" "J2"
 			(at 48.26 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36777,7 +36777,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "J13")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -36796,7 +36796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2c1886-2c75-44af-920d-9cd6d4e0329a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR096"
 			(at 129.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -36856,7 +36856,7 @@
 		(instances
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/62301ec1-b8c7-4fa7-aee1-8dbd1d010312"
-					(reference "#PWR068")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
