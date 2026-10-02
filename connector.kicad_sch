@@ -10966,7 +10966,7 @@
 			)
 		)
 	)
-	(global_label "TIM1_CH3"
+	(global_label "TIM2_CH3"
 		(shape input)
 		(at 261.62 31.75 0)
 		(fields_autoplaced yes)
@@ -10978,7 +10978,7 @@
 		)
 		(uuid "032e361c-5529-488e-b7ac-c1c45834f378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.2252 31.75 0)
+			(at 273.6161 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10990,7 +10990,7 @@
 			)
 		)
 	)
-	(global_label "TIM3_CH4"
+	(global_label "TIM8_CH2"
 		(shape input)
 		(at 363.22 82.55 0)
 		(fields_autoplaced yes)
@@ -11062,7 +11062,7 @@
 			)
 		)
 	)
-	(global_label "TIM5_CH2"
+	(global_label "TIM5_CH1"
 		(shape input)
 		(at 261.62 82.55 0)
 		(fields_autoplaced yes)
@@ -11182,7 +11182,7 @@
 			)
 		)
 	)
-	(global_label "TIM3_CH2"
+	(global_label "TIM1_CH2"
 		(shape input)
 		(at 261.62 107.95 0)
 		(fields_autoplaced yes)
@@ -11566,7 +11566,7 @@
 			)
 		)
 	)
-	(global_label "TIM1_CH1"
+	(global_label "TIM3_CH2"
 		(shape input)
 		(at 363.22 31.75 0)
 		(fields_autoplaced yes)
@@ -11578,7 +11578,7 @@
 		)
 		(uuid "6393cac9-156b-42e0-8040-9e496df12482")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.8252 31.75 0)
+			(at 375.2161 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +11638,7 @@
 			)
 		)
 	)
-	(global_label "TIM8_CH4"
+	(global_label "TIM2_CH2"
 		(shape input)
 		(at 210.82 31.75 0)
 		(fields_autoplaced yes)
@@ -11662,7 +11662,7 @@
 			)
 		)
 	)
-	(global_label "TIM4_CH3"
+	(global_label "TIM4_CH2"
 		(shape input)
 		(at 363.22 57.15 0)
 		(fields_autoplaced yes)
@@ -11758,7 +11758,7 @@
 			)
 		)
 	)
-	(global_label "TIM4_CH2"
+	(global_label "TIM4_CH3"
 		(shape input)
 		(at 312.42 57.15 0)
 		(fields_autoplaced yes)
@@ -11806,7 +11806,7 @@
 			)
 		)
 	)
-	(global_label "TIM2_CH3"
+	(global_label "TIM8_CH4"
 		(shape input)
 		(at 363.22 107.95 0)
 		(fields_autoplaced yes)
@@ -11854,7 +11854,7 @@
 			)
 		)
 	)
-	(global_label "TIM8_CH1"
+	(global_label "TIM3_CH3"
 		(shape input)
 		(at 261.62 57.15 0)
 		(fields_autoplaced yes)
@@ -11866,7 +11866,7 @@
 		)
 		(uuid "86e1a6f0-3039-4e2b-a38e-1fd374c4e72b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.2252 57.15 0)
+			(at 273.6161 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12070,7 +12070,7 @@
 			)
 		)
 	)
-	(global_label "TIM2_CH1"
+	(global_label "TIM1_CH1"
 		(shape input)
 		(at 210.82 107.95 0)
 		(fields_autoplaced yes)
@@ -12118,7 +12118,7 @@
 			)
 		)
 	)
-	(global_label "TIM8_CH2"
+	(global_label "TIM3_CH4"
 		(shape input)
 		(at 210.82 57.15 0)
 		(fields_autoplaced yes)
@@ -12454,7 +12454,7 @@
 			)
 		)
 	)
-	(global_label "TIM5_CH1"
+	(global_label "TIM5_CH2"
 		(shape input)
 		(at 210.82 82.55 0)
 		(fields_autoplaced yes)
@@ -12466,7 +12466,7 @@
 		)
 		(uuid "d82cfea5-55dd-4341-8bc9-5b005906e1f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.4252 82.55 0)
+			(at 222.8161 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12502,7 +12502,7 @@
 			)
 		)
 	)
-	(global_label "TIM1_CH2"
+	(global_label "TIM2_CH1"
 		(shape input)
 		(at 312.42 31.75 0)
 		(fields_autoplaced yes)
@@ -12550,7 +12550,7 @@
 			)
 		)
 	)
-	(global_label "TIM3_CH3"
+	(global_label "TIM8_CH1"
 		(shape input)
 		(at 312.42 82.55 0)
 		(fields_autoplaced yes)
@@ -12646,7 +12646,7 @@
 			)
 		)
 	)
-	(global_label "TIM2_CH2"
+	(global_label "TIM1_CH3"
 		(shape input)
 		(at 312.42 107.95 0)
 		(fields_autoplaced yes)
