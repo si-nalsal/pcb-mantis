@@ -1,0 +1,22 @@
+# Normalise line endings so diffs stay readable across machines
+* text=auto eol=lf
+
+# KiCad s-expression files: text, keep LF, and give GitHub a language hint
+*.kicad_pro    text eol=lf linguist-language=JSON
+*.kicad_sch    text eol=lf linguist-language=Lisp
+*.kicad_pcb    text eol=lf linguist-language=Lisp
+*.kicad_sym    text eol=lf linguist-language=Lisp
+*.kicad_mod    text eol=lf linguist-language=Lisp
+*.kicad_dru    text eol=lf linguist-language=Lisp
+*.kicad_wks    text eol=lf linguist-language=Lisp
+fp-lib-table   text eol=lf
+sym-lib-table  text eol=lf
+
+# Binary assets: never diff, never convert
+*.step  binary
+*.stp   binary
+*.wrl   binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary

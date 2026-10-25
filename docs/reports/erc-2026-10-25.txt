@@ -1,0 +1,71 @@
+ERC report (2026-10-25T20:55:56, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(85.09 mm, 121.92 mm): Symbol D1 [LED]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(95.25 mm, 121.92 mm): Symbol D2 [LED]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(105.41 mm, 121.92 mm): Symbol D3 [LED]
+[lib_symbol_mismatch]: Symbol 'STM32H743IIKx' doesn't match copy in library 'MCU_ST_STM32H7'
+    ; warning
+    @(222.25 mm, 154.94 mm): Symbol U1 [STM32H743IIKx]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(306.07 mm, 232.41 mm): Symbol U2 [FM25CL64B]
+[lib_symbol_mismatch]: Symbol 'TJA1051TK-3' doesn't match copy in library 'Interface_CAN_LIN'
+    ; warning
+    @(318.77 mm, 116.84 mm): Symbol U3 [TJA1051TK-3]
+[lib_symbol_mismatch]: Symbol 'TJA1051TK-3' doesn't match copy in library 'Interface_CAN_LIN'
+    ; warning
+    @(367.03 mm, 143.51 mm): Symbol U4 [TJA1051TK-3]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(53.34 mm, 118.11 mm): Symbol U5 [BMP388]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(60.96 mm, 46.99 mm): Symbol U7 [BMI088]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(147.32 mm, 49.53 mm): Symbol U8 [BMI270]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(101.60 mm, 62.23 mm): Symbol U10 [TPS2120YFPR]
+[lib_symbol_issues]: Symbol 'tps63070' not found in symbol library 'tps63070'
+    ; warning
+    @(114.30 mm, 147.32 mm): Symbol U11 [tps63070]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(227.33 mm, 31.75 mm): Symbol U12 [RT9080-33GJ5]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Svayam'
+    ; warning
+    @(227.33 mm, 58.42 mm): Symbol U13 [RT9080-33GJ5]
+[lib_symbol_mismatch]: Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'
+    ; warning
+    @(34.29 mm, 163.83 mm): Symbol J1 [USB_C_Receptacle_USB2.0_16P]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(86.36 mm, 59.69 mm): Symbol Q1 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'Micro_SD_Card_Det1' doesn't match copy in library 'Connector'
+    ; warning
+    @(92.71 mm, 234.95 mm): Symbol J10 [Micro_SD_Card_Det1]
+
+***** Sheet /Microcontroller/
+
+***** Sheet /Sensor/
+
+***** Sheet /Power/
+
+***** Sheet /Connector/
+
+ ** ERC messages: 17  Errors 0  Warnings 17
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
