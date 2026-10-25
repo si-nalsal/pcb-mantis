@@ -1,6 +1,6 @@
 # Design status
 
-**Snapshot:** 2026-10-25 23:28 WIB · KiCad 10.0.6 · branch `main`, commit `a56f437`
+**Snapshot:** 2026-10-25 23:35 WIB · KiCad 10.0.6 · branch `main`, last pushed commit `5af1522`
 
 Everything on this page was produced by running the commands shown, not estimated.
 Re-run them after each milestone — the numbers below are a baseline, not a promise.
@@ -21,7 +21,7 @@ kicad-cli sch export netlist --format kicadxml -o /tmp/net.kicadxml SvayamV3_IIK
 | Footprint assignment | ✅ complete | PCB ↔ schematic parity: 0 issues |
 | PCB placement | ✅ finalised | 290 footprints (190 front / 100 back) |
 | Routing | ✅ every net connected | 203 of 262 nets carry copper; the other 59 are single-pin NC nets; `unconnected_items` = **0** |
-| DRC | 🔴 **760 findings** (321 error / 439 warning), 5 of them shorts | see breakdown below |
+| DRC | 🔴 **752 findings** (313 error / 439 warning), 2 of them shorts | see breakdown below |
 | Silkscreen polish | 🔴 pending | 254 silk findings — do this last, after copper is final |
 | Fabrication release | ⛔ not started | no gerbers published, by design |
 
@@ -51,16 +51,16 @@ session. Recorded here for traceability — they were: `GND` (`R1` pad 2 ↔ `J9
 | `lib_footprint_mismatch` | 119 | no | footprint cache drift vs library, geometry unaffected |
 | `silk_over_copper` | 55 | no | cosmetic |
 | `via_dangling` | 43 | ⚠️ | vias connected on one layer only — track stubs to finish |
-| `clearance` | 27 | ⚠️ | BGA fan-out, 0.10–0.118 mm actual vs 0.12 mm rule |
-| `hole_clearance` | 24 | ⚠️ | track-to-hole 0.30–0.315 mm vs 0.33 mm rule |
+| `clearance` | 28 | ⚠️ | BGA fan-out, 0.10–0.118 mm actual vs 0.12 mm rule |
+| `hole_clearance` | 22 | ⚠️ | track-to-hole 0.30–0.315 mm vs 0.33 mm rule |
 | `starved_thermal` | 19 | ⚠️ | zone thermal spokes (some pads get 1 spoke, min is 2) — refill and re-check |
-| `solder_mask_bridge` | 17 | ⚠️ | mask aperture bridging at tight pad pairs — DFM risk |
-| `hole_to_hole` | 15 | ⚠️ | drill-to-drill below rule |
+| `solder_mask_bridge` | 14 | ⚠️ | mask aperture bridging at tight pad pairs — DFM risk |
+| `hole_to_hole` | 14 | ⚠️ | drill-to-drill below rule |
 | `track_dangling` | 10 | ⚠️ | unterminated track ends |
 | `courtyards_overlap` | 7 | ⚠️ | `R84`–`R92` inside their connector courtyards |
 | `unconnected_items` | 0 | ✅ | every functional net fully connected |
 | `drill_out_of_range` | 6 | 🔴 DFM | 0.15 mm fan-out vias vs 0.20 mm rule floor |
-| `shorting_items` | 5 | 🔴 | see below |
+| `shorting_items` | 2 | 🔴 | see below |
 | `isolated_copper` | 5 | ⚠️ | copper islands with no net — delete or connect |
 | `text_height` / `text_thickness` | 3 / 1 | no | silk text below rule minimum |
 | `annular_width` | 2 | ⚠️ | `SW1` PTH pads with 0 annular ring |
@@ -68,22 +68,19 @@ session. Recorded here for traceability — they were: `GND` (`R1` pad 2 ↔ `J9
 | `holes_co_located` | 1 | 🔴 | two holes at the same coordinate |
 | `silk_edge_clearance` | 1 | no | cosmetic |
 
-### The five shorts — fix these first
+### The two remaining shorts — fix these next
 
-All five share one root cause: a via placed **inside** an `MP` (mechanical) pad of a JST-GH
-connector. The `MP` pads carry no net, so the pad and the via count as two different
-conductors.
+**3 of 5 cleared (23:35):** the two `GND` vias in the right `MP` pad of `J17`, and the
+concentric `GND` via in `J11`, have been moved out of the pad area. What is left:
 
 | # | Pad | Via inside the pad | Risk |
 |---|---|---|---|
-| 1 | `J17` MP left (81.46, 134.73) | `+5V_PERIPH` Ø0.6 at (81.605, 134.725) | ⚠️ tying `MP` to GND would short **+5 V to GND** |
-| 2 | `J17` MP left | `+5V_PERIPH` Ø0.7 at (81.83, 136.10) | as #1 |
-| 3 | `J17` MP right (88.91, 134.73) | `GND` Ø0.7 at (89.0525, 135.60) | solder wicking through the pad |
-| 4 | `J17` MP right | `GND` Ø0.7 at (89.155, 135.10) | as #3 |
-| 5 | `J11` MP (104.92, 146.07) | `GND` Ø0.6 at (104.936, 146.071), concentric | via dead-centre in the anchor pad |
+| 1 | `J17` MP left (81.46, 134.73) | `+5V_PERIPH` Ø0.6 at (81.605, 134.725), 0.145 mm from pad centre | ⚠️ tying `MP` to GND would short **+5 V to GND** |
+| 2 | `J17` MP left | `+5V_PERIPH` Ø0.7 at (81.83, 136.10), inside the 1 × 2.8 mm pad | as #1 |
 
-**Order matters:** move the five vias out of the pad area (each pad is 1 × 2.8 mm) *first*, and
-only then assign `MP` → `GND`. Assigning first turns #1 and #2 into a hard +5 V ↔ GND short.
+Neither is a live short: the `MP` pad carries no net, so no current flows where it should not.
+They become a hard **+5 V ↔ GND short the moment `MP` is assigned to `GND`** — so move them
+first, assign second.
 
 The genuine signal short found earlier — a `GND` via sitting on the `SPI1_MOSI` track on
 `In2.Cu` — was cleared on 2026-10-25: the via moved from (111.916, 111.574) to
@@ -155,7 +152,7 @@ lines is what turns this BOM into a one-click JLCPCB order.
 
 ## Next steps, in order
 
-1. **Move the 5 vias out of the `MP` pads** — `J17` (both pads) and `J11`; see the shorts table.
+1. **Move the 2 remaining vias out of the left `MP` pad of `J17`** — see the shorts table.
 2. **Assign `MP` → `GND`** on the JST-GH connectors, and consider `J10` shield pads 11–14.
    Do this only after step 1.
 3. **Enlarge the `U1_BGA` rule area** so it covers the full escape region, or raise the global
