@@ -5,10 +5,11 @@
 ![PCB top view](docs/images/pcb-top.png)
 
 > ### ⚠️ Design status: layout in progress — **not fabrication-ready**
-> Schematic is complete and frozen (ERC **0 errors**). Placement is finalised and every
-> functional net already carries copper, but DRC still reports **6 shorts**, **7 missing
-> connections**, and vias/drills outside the current rule set. **Do not order boards from
-> this revision.** See [docs/STATUS.md](docs/STATUS.md).
+> Schematic is complete and frozen (ERC **0 errors**). Placement is finalised and **every
+> functional net is electrically connected** (`unconnected_items` = 0), but DRC still reports
+> **5 shorts** — all of them vias sitting inside unassigned connector `MP` pads — plus vias and
+> drills outside the current rule set. **Do not order boards from this revision.**
+> See [docs/STATUS.md](docs/STATUS.md).
 
 ---
 
@@ -205,11 +206,11 @@ Numbers below come straight from `kicad-cli pcb export stats` and the ERC/DRC re
 | Footprints | 290 (190 front, 100 back — 19 THT, 267 SMD, 4 mechanical) |
 | Nets | 262 (203 carry copper, 59 are single-pin NC) |
 | Nodes | 1,005 |
-| Track segments | 2,882 |
+| Track segments | 2,897 |
 | Vias | 475 through-hole |
 | Copper zones | 8 |
 | ERC | **0 errors / 17 warnings** (all library-symbol cosmetics) |
-| DRC | 765 findings — see below for the ones that matter |
+| DRC | 760 findings (321 error / 439 warning) — see below for the ones that matter |
 | Schematic parity | 0 issues |
 
 ---
@@ -227,8 +228,8 @@ Intended process: **JLCPCB, 6 layers, 1.6 mm, ENIG**, stackup `JLC06161H-3313`.
 
 | # | Item | Count | Notes |
 |---|---|---|---|
-| 1 | `shorting_items` | 6 | 4 × unassigned `MP` pads on `J11`/`J17` touching vias; 1 × GND via vs `SPI1_MOSI` on `In2.Cu` — **electrically real** |
-| 2 | `unconnected_items` | 7 | GND `R1`→`J9`, `C24`→via, two GND track gaps, `+3V3_FMU`, `+VBRICK1/2`, `SPI1_MISO` |
+| 1 | `shorting_items` | 5 | all five are vias sitting inside unassigned `MP` pads of `J17` (both pads) and `J11` — move the vias **before** tying `MP` to GND |
+| 2 | ~~`unconnected_items`~~ | ~~7~~ → **0** | closed 2026-10-25: `R1`/`J9`/`C24` GND, `U1` pad `K4` (an MCU `VDD` pin), `+VBRICK1/2`, `SPI1_MISO` |
 | 3 | `drill_out_of_range` | 6 | 0.15 mm fan-out vias vs 0.20 mm rule floor — confirm fab tier before ordering |
 | 4 | `track_width` | 199 | 0.10 mm tracks **outside** the `U1_BGA` rule area (151 `F.Cu`, 48 `B.Cu`) — enlarge the rule area or raise the global minimum |
 | 5 | `clearance` / `hole_clearance` | 27 / 24 | BGA fan-out, 0.10–0.12 mm actual vs 0.12–0.33 mm rule |

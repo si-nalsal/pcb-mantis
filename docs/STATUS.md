@@ -1,6 +1,6 @@
 # Design status
 
-**Snapshot:** 2026-10-25 · KiCad 10.0.6 · branch `master`, commit at time of writing 15d59f5
+**Snapshot:** 2026-10-25 23:28 WIB · KiCad 10.0.6 · branch `main`, commit `a56f437`
 
 Everything on this page was produced by running the commands shown, not estimated.
 Re-run them after each milestone — the numbers below are a baseline, not a promise.
@@ -20,8 +20,8 @@ kicad-cli sch export netlist --format kicadxml -o /tmp/net.kicadxml SvayamV3_IIK
 | ERC | ✅ **0 errors**, 17 warnings | all 17 are library-symbol cosmetics |
 | Footprint assignment | ✅ complete | PCB ↔ schematic parity: 0 issues |
 | PCB placement | ✅ finalised | 290 footprints (190 front / 100 back) |
-| Routing | 🟡 functionally complete | 203 of 262 nets carry copper; the other 59 are single-pin NC nets — but **7 connections still have gaps** |
-| DRC | 🔴 **765 findings**, 6 of them shorts | see breakdown below |
+| Routing | ✅ every net connected | 203 of 262 nets carry copper; the other 59 are single-pin NC nets; `unconnected_items` = **0** |
+| DRC | 🔴 **760 findings** (321 error / 439 warning), 5 of them shorts | see breakdown below |
 | Silkscreen polish | 🔴 pending | 254 silk findings — do this last, after copper is final |
 | Fabrication release | ⛔ not started | no gerbers published, by design |
 
@@ -29,28 +29,18 @@ kicad-cli sch export netlist --format kicadxml -o /tmp/net.kicadxml SvayamV3_IIK
 
 | Metric | Value |
 |---|---:|
-| Track segments | 2,882 |
+| Track segments | 2,897 |
 | Vias (through-hole) | 475 |
 | Copper zones | 8 |
 | Nets with copper | 203 / 262 |
 | Nets with no copper | 59 — all `unconnected-(…)` single-pin NC nets |
-| Missing connections (`unconnected_items`) | **7** |
+| Functional nets without copper | **0** |
+| Missing connections (`unconnected_items`) | **0** |
 
-The seven gaps are not "forgotten nets" — they are short track-to-track, pad-to-via and
-track-to-pad breaks at joints:
-
-| # | Net | Between |
-|---|---|---|
-| 1 | `GND` | pad 2 of `R1` ↔ pad 6 of `J9` |
-| 2 | `GND` | pad 2 of `C24` ↔ via |
-| 3 | `GND` | track 0.0109 mm ↔ track 1.30 mm (`F.Cu`) |
-| 4 | `+3V3_FMU` | track on `B.Cu` ↔ pad `K4` of `U1` |
-| 5 | `+VBRICK1` | track ↔ track (`F.Cu`) |
-| 6 | `+VBRICK2` | track ↔ track (`F.Cu`) |
-| 7 | `SPI1_MISO` | track ↔ track (`F.Cu`) |
-
-Fix: select the two endpoints in Pcbnew and use **Route → Finish / drag the joint**; each is
-sub-millimetre work.
+Every open connection present in the 20:52 snapshot was closed in the same day's layout
+session. Recorded here for traceability — they were: `GND` (`R1` pad 2 ↔ `J9` pad 6,
+`C24` pad 2 ↔ via, and a 0.0109 mm track stub), `+3V3_FMU` (track ↔ `U1` pad `K4`, an MCU
+`VDD` pin), `+VBRICK1`, `+VBRICK2`, and `SPI1_MISO` between `U7` pads 10 and 15.
 
 ## DRC findings by rule
 
@@ -60,17 +50,17 @@ sub-millimetre work.
 | `silk_overlap` | 199 | no | cosmetic — clear with **Autoplace Fields** at the end |
 | `lib_footprint_mismatch` | 119 | no | footprint cache drift vs library, geometry unaffected |
 | `silk_over_copper` | 55 | no | cosmetic |
-| `via_dangling` | 46 | ⚠️ | vias connected on one layer only — track stubs to finish |
+| `via_dangling` | 43 | ⚠️ | vias connected on one layer only — track stubs to finish |
 | `clearance` | 27 | ⚠️ | BGA fan-out, 0.10–0.118 mm actual vs 0.12 mm rule |
 | `hole_clearance` | 24 | ⚠️ | track-to-hole 0.30–0.315 mm vs 0.33 mm rule |
 | `starved_thermal` | 19 | ⚠️ | zone thermal spokes (some pads get 1 spoke, min is 2) — refill and re-check |
 | `solder_mask_bridge` | 17 | ⚠️ | mask aperture bridging at tight pad pairs — DFM risk |
 | `hole_to_hole` | 15 | ⚠️ | drill-to-drill below rule |
-| `track_dangling` | 11 | ⚠️ | unterminated track ends |
+| `track_dangling` | 10 | ⚠️ | unterminated track ends |
 | `courtyards_overlap` | 7 | ⚠️ | `R84`–`R92` inside their connector courtyards |
-| `unconnected_items` | 7 | 🔴 | see table above |
+| `unconnected_items` | 0 | ✅ | every functional net fully connected |
 | `drill_out_of_range` | 6 | 🔴 DFM | 0.15 mm fan-out vias vs 0.20 mm rule floor |
-| `shorting_items` | 6 | 🔴 | see below |
+| `shorting_items` | 5 | 🔴 | see below |
 | `isolated_copper` | 5 | ⚠️ | copper islands with no net — delete or connect |
 | `text_height` / `text_thickness` | 3 / 1 | no | silk text below rule minimum |
 | `annular_width` | 2 | ⚠️ | `SW1` PTH pads with 0 annular ring |
@@ -78,21 +68,36 @@ sub-millimetre work.
 | `holes_co_located` | 1 | 🔴 | two holes at the same coordinate |
 | `silk_edge_clearance` | 1 | no | cosmetic |
 
-### The six shorts — fix these first
+### The five shorts — fix these first
 
-| # | Nets | Where | Cause |
+All five share one root cause: a via placed **inside** an `MP` (mechanical) pad of a JST-GH
+connector. The `MP` pads carry no net, so the pad and the via count as two different
+conductors.
+
+| # | Pad | Via inside the pad | Risk |
 |---|---|---|---|
-| 1–4 | `+5V_PERIPH` / `GND` vs *no net* | pad `MP` of `J17`, pad `MP` of `J11` | the JST-GH mechanical pads carry no net, so any via nearby shorts to them |
-| 5 | `GND` ↔ `SPI1_MOSI` | via at (111.92, 111.57) ↔ 22.8 mm track on `In2.Cu` | **electrically real short** — the SPI trace passes through a GND via |
-| 6 | *no net* ↔ `GND` | pad `MP` of `J11` | as #1–4 |
+| 1 | `J17` MP left (81.46, 134.73) | `+5V_PERIPH` Ø0.6 at (81.605, 134.725) | ⚠️ tying `MP` to GND would short **+5 V to GND** |
+| 2 | `J17` MP left | `+5V_PERIPH` Ø0.7 at (81.83, 136.10) | as #1 |
+| 3 | `J17` MP right (88.91, 134.73) | `GND` Ø0.7 at (89.0525, 135.60) | solder wicking through the pad |
+| 4 | `J17` MP right | `GND` Ø0.7 at (89.155, 135.10) | as #3 |
+| 5 | `J11` MP (104.92, 146.07) | `GND` Ø0.6 at (104.936, 146.071), concentric | via dead-centre in the anchor pad |
 
-Two ways out of the `MP` problem:
+**Order matters:** move the five vias out of the pad area (each pad is 1 × 2.8 mm) *first*, and
+only then assign `MP` → `GND`. Assigning first turns #1 and #2 into a hard +5 V ↔ GND short.
 
-* assign the mechanical pads to `GND` in the footprint (they are plated through-holes on the
-  connector shell — tying them to ground is the intended use), or
-* move the offending vias out of the pad radius.
+The genuine signal short found earlier — a `GND` via sitting on the `SPI1_MOSI` track on
+`In2.Cu` — was cleared on 2026-10-25: the via moved from (111.916, 111.574) to
+(111.500, 111.550), leaving **+0.344 mm** clearance to the track, with the track intact
+(14 segments, 2 pads, net still fully connected).
 
-The `SPI1_MOSI` / `GND` short must be re-routed — a GND via sitting on a signal track.
+Pad-level audit of the same snapshot (`--schematic-parity`, netlist comparison):
+
+* **0** pads carry a net in the schematic but no net on the PCB.
+* **0** functional nets are without copper.
+* 49 conductive pads carry no net at all, all mechanical: 28 × `MP` (JST-GH), 6 × NPTH
+  (`H1`–`H4`, `J1` shell), 4 × `J10` shield pads (11–14), 11 × `SW1`/`SW2` anchor pads.
+  The `J10` shield pads are the only ones worth revisiting — an ungrounded SD shield has no
+  ESD return path.
 
 ## Drill capability
 
@@ -150,8 +155,9 @@ lines is what turns this BOM into a one-click JLCPCB order.
 
 ## Next steps, in order
 
-1. **Clear the 6 shorts** (assign `MP` pads of `J11`/`J17` to GND; re-route `SPI1_MOSI`).
-2. **Close the 7 gaps** — drag each joint.
+1. **Move the 5 vias out of the `MP` pads** — `J17` (both pads) and `J11`; see the shorts table.
+2. **Assign `MP` → `GND`** on the JST-GH connectors, and consider `J10` shield pads 11–14.
+   Do this only after step 1.
 3. **Enlarge the `U1_BGA` rule area** so it covers the full escape region, or raise the global
    minimum track width to 0.10 mm. Re-run DRC.
 4. **Place `H1`–`H4`** — the four M3 mounting holes are still parked at X = 223.78 mm, outside
