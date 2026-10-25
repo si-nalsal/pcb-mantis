@@ -1,6 +1,6 @@
 PCB statistics report
 =====================
-- Date: Sun 25 Oct 2026 08:55:57 PM WIB
+- Date: Sun 25 Oct 2026 11:29:20 PM WIB
 - Project: SvayamV3_IIK
 - Board name: SvayamV3_IIK
 
@@ -9,8 +9,8 @@ Board
 - Width: 125.1450 mm
 - Height: 89.9600 mm
 - Area: 11258.044 mm²
-- Front copper area: 3312.781 mm²
-- Back copper area: 2937.786 mm²
+- Front copper area: 3314.005 mm²
+- Back copper area: 2938.422 mm²
 - Min track clearance: 0.0900 mm
 - Min track width: 0.1000 mm
 - Min drill diameter: 0.1500 mm
@@ -51,8 +51,8 @@ Drill holes
 
 | Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
 |-------|-------|-----------|-----------|--------|---------|-------------|------------|
-|   284 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
-|   135 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|   285 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|   134 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
 |    56 | Round | 0.1500 mm | 0.1500 mm |    PTH |     Via |        F.Cu |       B.Cu |
 |    48 | Round | 0.9500 mm | 0.9500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
 |     7 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |

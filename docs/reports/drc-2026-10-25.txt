@@ -1,16 +1,20 @@
 ** Drc report for SvayamV3_IIK.kicad_pcb **
-** Created on 2026-10-25T20:58:28 **
+** Created on 2026-10-25T23:29:05 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 765 DRC violations **
+** Found 760 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(103.8700 mm, 101.4935 mm): Pad 1 [unconnected-(U7-INT2-Pad1)] of U7 on F.Cu
+    @(104.3700 mm, 101.4935 mm): Pad 2 [GND] of U7 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.3700 mm, 101.4935 mm): Pad 2 [GND] of U7 on F.Cu
+    @(104.8700 mm, 101.4935 mm): Pad 3 [+3V3_SENS] of U7 on F.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(104.8700 mm, 101.4935 mm): Pad 3 [+3V3_SENS] of U7 on F.Cu
     @(105.3700 mm, 101.4935 mm): Pad 4 [GND] of U7 on F.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(104.8700 mm, 101.4935 mm): Pad 3 [+3V3_SENS] of U7 on F.Cu
-    @(104.3700 mm, 101.4935 mm): Pad 2 [GND] of U7 on F.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(105.3700 mm, 101.4935 mm): Pad 4 [GND] of U7 on F.Cu
@@ -19,14 +23,14 @@
     Rule: board setup solder mask min width; error
     @(105.8700 mm, 101.4935 mm): Pad 5 [~{CS_BMI088_GYRO}] of U7 on F.Cu
     @(106.3700 mm, 101.4935 mm): Pad 6 [GND] of U7 on F.Cu
-[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(81.8300 mm, 136.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
-    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(106.8700 mm, 103.8235 mm): Pad 9 [SPI1_MOSI] of U7 on F.Cu
     @(106.3700 mm, 103.8235 mm): Pad 10 [SPI1_MISO] of U7 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(81.8300 mm, 136.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
+    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(106.3700 mm, 103.8235 mm): Pad 10 [SPI1_MISO] of U7 on F.Cu
@@ -39,6 +43,10 @@
     Rule: board setup solder mask min width; error
     @(105.3700 mm, 103.8235 mm): Pad 12 [unconnected-(U7-INT3-Pad12)] of U7 on F.Cu
     @(104.8700 mm, 103.8235 mm): Pad 13 [unconnected-(U7-INT4-Pad13)] of U7 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(81.6050 mm, 134.7250 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
+    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(104.8700 mm, 103.8235 mm): Pad 13 [unconnected-(U7-INT4-Pad13)] of U7 on F.Cu
@@ -47,18 +55,14 @@
     Rule: board setup solder mask min width; error
     @(104.3700 mm, 103.8235 mm): Pad 14 [~{CS_BMI088_ACCEL}] of U7 on F.Cu
     @(103.8700 mm, 103.8235 mm): Pad 15 [SPI1_MISO] of U7 on F.Cu
-[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(81.6050 mm, 134.7250 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
-    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
-[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(104.9362 mm, 146.0712 mm): Via [GND] on F.Cu - B.Cu
-    @(104.9212 mm, 146.0712 mm): Pad MP [<no net>] of J11 on B.Cu
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(146.1768 mm, 123.9297 mm): Pad 8 [SD_DAT1] of J10 on F.Cu
     @(146.5268 mm, 122.7698 mm): Pad 12 [<no net>] of J10 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.9362 mm, 146.0712 mm): Via [GND] on F.Cu - B.Cu
+    @(104.9212 mm, 146.0712 mm): Pad MP [<no net>] of J11 on B.Cu
 [solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
     Rule: board setup solder mask min width; error
     @(89.1550 mm, 135.1000 mm): Via [GND] on F.Cu - B.Cu
@@ -67,15 +71,11 @@
     Rule: board setup solder mask min width; error
     @(89.0525 mm, 135.6000 mm): Via [GND] on F.Cu - B.Cu
     @(88.9100 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(103.8700 mm, 101.4935 mm): Pad 1 [unconnected-(U7-INT2-Pad1)] of U7 on F.Cu
-    @(104.3700 mm, 101.4935 mm): Pad 2 [GND] of U7 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(92.3643 mm, 178.3750 mm): PTH pad 2 [+VSERVO] of J22
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(92.3643 mm, 178.3750 mm): PTH pad 2 [+VSERVO] of J22
@@ -87,22 +87,22 @@
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(104.7929 mm, 164.0500 mm): PTH pad 2 [+VSERVO] of J24
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(90.0250 mm, 105.3000 mm): Zone '+3V3_SENS' [+3V3_SENS] on F.Cu, priority 5
-    @(101.4200 mm, 109.4638 mm): Pad 5 [+3V3_SENS] of U8 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(117.2214 mm, 178.3750 mm): PTH pad 2 [+VSERVO] of J30
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(90.0250 mm, 105.3000 mm): Zone '+3V3_SENS' [+3V3_SENS] on F.Cu, priority 5
-    @(99.7575 mm, 109.6262 mm): Pad 8 [+3V3_SENS] of U8 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(55.0786 mm, 178.6250 mm): PTH pad 2 [+VSERVO] of J25
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(90.0250 mm, 105.3000 mm): Zone '+3V3_SENS' [+3V3_SENS] on F.Cu, priority 5
+    @(101.4200 mm, 109.4638 mm): Pad 5 [+3V3_SENS] of U8 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(90.0250 mm, 105.3000 mm): Zone '+3V3_SENS' [+3V3_SENS] on F.Cu, priority 5
+    @(99.7575 mm, 109.6262 mm): Pad 8 [+3V3_SENS] of U8 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
@@ -123,14 +123,14 @@
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(67.5071 mm, 178.6250 mm): PTH pad 2 [+VSERVO] of J29
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
-    @(55.0786 mm, 178.6250 mm): PTH pad 2 [+VSERVO] of J25
 [starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
     @(42.6500 mm, 178.6250 mm): PTH pad 2 [+VSERVO] of J21
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
+    @(55.0786 mm, 178.6250 mm): PTH pad 2 [+VSERVO] of J25
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(147.3250 mm, 161.9391 mm): Zone '+VSERVO' [+VSERVO] on F.Cu and B.Cu, priority 4
@@ -870,14 +870,14 @@
     Rule: Clearance: track to PTH hole perimeter; error
     @(106.0000 mm, 127.3984 mm): Track [~{BARO2_CS_N}] on B.Cu, length 5.9316 mm
     @(106.4700 mm, 128.0800 mm): Via [~{CS_BMI088_ACCEL}] on F.Cu - B.Cu
-[clearance]: Clearance violation (rule 'BGA U1: clearance umum (fanout)' clearance 0.1200 mm; actual 0.1065 mm)
-    Rule: BGA U1: clearance umum (fanout); error
-    @(104.7770 mm, 134.1000 mm): Pad D15 [TIM1_CH3] of U1 on F.Cu
-    @(104.3399 mm, 134.0964 mm): Track [~{BARO2_CS_N}] on F.Cu, length 2.2527 mm
 [clearance]: Clearance violation (rule 'BGA U1: clearance umum (fanout)' clearance 0.1200 mm; actual 0.1182 mm)
     Rule: BGA U1: clearance umum (fanout); error
     @(103.8560 mm, 130.8942 mm): Track [USART2_RX] on F.Cu, length 2.2221 mm
     @(104.3174 mm, 130.8827 mm): Pad A11 [SPI1_MOSI] of U1 on F.Cu
+[clearance]: Clearance violation (rule 'BGA U1: clearance umum (fanout)' clearance 0.1200 mm; actual 0.1065 mm)
+    Rule: BGA U1: clearance umum (fanout); error
+    @(104.7770 mm, 134.1000 mm): Pad D15 [TIM1_CH3] of U1 on F.Cu
+    @(104.3399 mm, 134.0964 mm): Track [~{BARO2_CS_N}] on F.Cu, length 2.2527 mm
 [hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.3083 mm)
     Rule: Clearance: track to PTH hole perimeter; error
     @(107.2100 mm, 129.5779 mm): Track [SPI1_MOSI] on In2.Cu, length 1.7474 mm
@@ -892,12 +892,12 @@
     @(101.0982 mm, 137.3060 mm): Track [TIM4_CH3] on F.Cu, length 2.1714 mm
 [clearance]: Clearance violation (rule 'Clearance: track to pad' clearance 0.2000 mm; actual 0.0500 mm)
     Rule: Clearance: track to pad; error
-    @(129.0500 mm, 138.3400 mm): Pad MP [<no net>] of J2 on B.Cu
-    @(129.6500 mm, 141.1250 mm): Track [SD_DAT1] on B.Cu, length 3.5170 mm
-[clearance]: Clearance violation (rule 'Clearance: track to pad' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: Clearance: track to pad; error
     @(129.6500 mm, 137.6080 mm): Track [SD_DAT1] on B.Cu, length 0.4830 mm
     @(129.0500 mm, 138.3400 mm): Pad MP [<no net>] of J2 on B.Cu
+[clearance]: Clearance violation (rule 'Clearance: track to pad' clearance 0.2000 mm; actual 0.0500 mm)
+    Rule: Clearance: track to pad; error
+    @(129.0500 mm, 138.3400 mm): Pad MP [<no net>] of J2 on B.Cu
+    @(129.6500 mm, 141.1250 mm): Track [SD_DAT1] on B.Cu, length 3.5170 mm
 [clearance]: Clearance violation (rule 'BGA U1: clearance umum (fanout)' clearance 0.1200 mm; actual 0.0916 mm)
     Rule: BGA U1: clearance umum (fanout); error
     @(103.6462 mm, 135.1962 mm): Pad 1 [Net-(C17-Pad1)] of C19 on B.Cu
@@ -908,11 +908,11 @@
     @(108.7250 mm, 133.4500 mm): Via [SD_CMD] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.3083 mm)
     Rule: Clearance: track to PTH hole perimeter; error
-    @(108.8544 mm, 130.8135 mm): Track [SD_DAT2] on F.Cu, length 0.4088 mm
+    @(108.4456 mm, 130.8135 mm): Track [SD_DAT2] on F.Cu, length 0.1831 mm
     @(108.1750 mm, 131.2000 mm): Via [SWCLK] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.3083 mm)
     Rule: Clearance: track to PTH hole perimeter; error
-    @(108.4456 mm, 130.8135 mm): Track [SD_DAT2] on F.Cu, length 0.1831 mm
+    @(108.8544 mm, 130.8135 mm): Track [SD_DAT2] on F.Cu, length 0.4088 mm
     @(108.1750 mm, 131.2000 mm): Via [SWCLK] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.3000 mm)
     Rule: Clearance: track to PTH hole perimeter; error
@@ -924,32 +924,32 @@
     @(83.2998 mm, 147.3250 mm): Track [CANH2] on B.Cu, length 1.8152 mm
 [clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1250 mm)
     Rule: Clearance: pad/via to pad/via; error
-    @(62.7100 mm, 142.5000 mm): Via [Net-(U11-L1)] on F.Cu - B.Cu
-    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
-[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1250 mm)
-    Rule: Clearance: pad/via to pad/via; error
-    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
-    @(62.1000 mm, 142.5000 mm): Via [Net-(U11-L1)] on F.Cu - B.Cu
-[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1150 mm)
-    Rule: Clearance: pad/via to pad/via; error
-    @(63.3200 mm, 143.6900 mm): Via [Net-(U11-L2)] on F.Cu - B.Cu
-    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
-[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1250 mm)
-    Rule: Clearance: pad/via to pad/via; error
     @(63.3200 mm, 142.5000 mm): Via [Net-(U11-L1)] on F.Cu - B.Cu
+    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
+[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1250 mm)
+    Rule: Clearance: pad/via to pad/via; error
+    @(62.7100 mm, 142.5000 mm): Via [Net-(U11-L1)] on F.Cu - B.Cu
     @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
 [clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1150 mm)
     Rule: Clearance: pad/via to pad/via; error
     @(62.1000 mm, 143.6900 mm): Via [Net-(U11-L2)] on F.Cu - B.Cu
     @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
-[hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.2816 mm)
-    Rule: Clearance: track to PTH hole perimeter; error
-    @(103.5000 mm, 132.9000 mm): Track [SD_CMD] on In2.Cu, length 0.9263 mm
-    @(104.3250 mm, 133.1500 mm): Via [TIM8_CH4] on F.Cu - B.Cu
+[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1150 mm)
+    Rule: Clearance: pad/via to pad/via; error
+    @(63.3200 mm, 143.6900 mm): Via [Net-(U11-L2)] on F.Cu - B.Cu
+    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
 [clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1150 mm)
     Rule: Clearance: pad/via to pad/via; error
     @(62.7100 mm, 143.6900 mm): Via [Net-(U11-L2)] on F.Cu - B.Cu
     @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
+[clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1250 mm)
+    Rule: Clearance: pad/via to pad/via; error
+    @(62.5750 mm, 143.1000 mm): Pad 10 [GND] of U11 on F.Cu
+    @(62.1000 mm, 142.5000 mm): Via [Net-(U11-L1)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.2816 mm)
+    Rule: Clearance: track to PTH hole perimeter; error
+    @(103.5000 mm, 132.9000 mm): Track [SD_CMD] on In2.Cu, length 0.9263 mm
+    @(104.3250 mm, 133.1500 mm): Via [TIM8_CH4] on F.Cu - B.Cu
 [clearance]: Clearance violation (netclass 'PWR' clearance 0.2000 mm; actual 0.1865 mm)
     Rule: netclass 'PWR'; error
     @(97.3250 mm, 125.7268 mm): Track [+3V3_FMU] on F.Cu, length 3.2645 mm
@@ -982,14 +982,14 @@
     Rule: BGA U1: clearance umum (fanout); error
     @(104.3214 mm, 131.3275 mm): Track [~{GPS_OC}] on F.Cu, length 2.2527 mm
     @(104.3174 mm, 130.8827 mm): Pad A11 [SPI1_MOSI] of U1 on F.Cu
-[shorting_items]: Items shorting two nets (nets +5V_PERIPH and )
-    Local override; error
-    @(81.8300 mm, 136.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
-    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
 [shorting_items]: Items shorting two nets (nets  and +5V_PERIPH)
     Local override; error
     @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
     @(81.6050 mm, 134.7250 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets +5V_PERIPH and )
+    Local override; error
+    @(81.8300 mm, 136.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
+    @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
 [clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1885 mm)
     Rule: netclass 'GND'; error
     @(58.0135 mm, 126.4665 mm): Track [Net-(U10-OV1)] on F.Cu, length 3.3330 mm
@@ -1002,22 +1002,18 @@
     Rule: Clearance: pad/via to pad/via; error
     @(153.8950 mm, 102.6450 mm): Via [GND] on F.Cu - B.Cu
     @(154.5750 mm, 103.6750 mm): Pad 3 [<no net>] of SW2 on F.Cu
-[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1800 mm)
-    Rule: netclass 'GND'; error
-    @(99.8262 mm, 129.9512 mm): Track [~{SPI_OC}] on In2.Cu, length 4.3369 mm
-    @(99.2962 mm, 130.3962 mm): Via [GND] on F.Cu - B.Cu
 [shorting_items]: Items shorting two nets (nets  and GND)
     Local override; error
     @(88.9100 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
     @(89.1550 mm, 135.1000 mm): Via [GND] on F.Cu - B.Cu
-[shorting_items]: Items shorting two nets (nets GND and SPI1_MOSI)
-    Local override; error
-    @(111.9163 mm, 111.5738 mm): Via [GND] on F.Cu - B.Cu
-    @(112.2077 mm, 129.2002 mm): Track [SPI1_MOSI] on In2.Cu, length 22.7826 mm
 [clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1800 mm)
     Rule: netclass 'GND'; error
     @(109.1500 mm, 116.6000 mm): Via [GND] on F.Cu - B.Cu
     @(109.6935 mm, 119.1269 mm): Track [~{CS_BMI088_ACCEL}] on In2.Cu, length 14.5147 mm
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'GND'; error
+    @(99.8262 mm, 129.9512 mm): Track [~{SPI_OC}] on In2.Cu, length 4.3369 mm
+    @(99.2962 mm, 130.3962 mm): Via [GND] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (rule 'Clearance: track to PTH hole perimeter' clearance 0.3300 mm; actual 0.2906 mm)
     Rule: Clearance: track to PTH hole perimeter; error
     @(90.8100 mm, 131.7700 mm): Track [ADC1_INP11] on In2.Cu, length 3.7946 mm
@@ -1029,7 +1025,7 @@
 [clearance]: Clearance violation (rule 'Clearance: pad/via to pad/via' clearance 0.1270 mm; actual 0.1116 mm)
     Rule: Clearance: pad/via to pad/via; error
     @(61.5100 mm, 143.1000 mm): Via [GND] on F.Cu - B.Cu
-    @(60.8250 mm, 142.8500 mm): Pad 2 [Net-(U11-PG)] of U11 on F.Cu
+    @(60.8250 mm, 143.3500 mm): Pad 3 [Net-(U11-VAUX)] of U11 on F.Cu
 [clearance]: Clearance violation (rule 'BGA U1: clearance umum (fanout)' clearance 0.1200 mm; actual 0.1101 mm)
     Rule: BGA U1: clearance umum (fanout); error
     @(96.9635 mm, 129.0442 mm): Pad G1 [Net-(U1-PH0)] of U1 on F.Cu
@@ -1050,10 +1046,6 @@
     Rule: board setup constraints hole; error
     @(149.8618 mm, 143.8548 mm): Pad B1 [GND] of J1 on B.Cu
     @(150.9368 mm, 143.5448 mm): NPTH pad of J1
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1160 mm)
-    Rule: board setup constraints hole; error
-    @(101.0212 mm, 128.6212 mm): Pad 1 [+3V3_FMU] of C24 on B.Cu
-    @(101.5700 mm, 128.5700 mm): Via [I2C1_SCL] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
     Rule: board setup constraints hole; error
     @(88.9100 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
@@ -1066,6 +1058,10 @@
     Rule: board setup constraints hole; error
     @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
     @(81.8300 mm, 136.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1160 mm)
+    Rule: board setup constraints hole; error
+    @(101.0212 mm, 128.6212 mm): Pad 1 [+3V3_FMU] of C24 on B.Cu
+    @(101.5700 mm, 128.5700 mm): Via [I2C1_SCL] on F.Cu - B.Cu
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
     Rule: board setup constraints hole; error
     @(81.4600 mm, 134.7300 mm): Pad MP [<no net>] of J17 on B.Cu
@@ -1435,13 +1431,13 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(143.2597 mm, 133.8048 mm): Segment of R48 on F.Silkscreen
-    @(142.9033 mm, 133.4247 mm): Pad 1 [+3V3_FMU] of R48 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(143.2597 mm, 133.8048 mm): Segment of R48 on F.Silkscreen
     @(143.9233 mm, 133.4247 mm): Pad 2 [SD_DAT2] of R48 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
+    @(143.2597 mm, 133.8048 mm): Segment of R48 on F.Silkscreen
+    @(142.9033 mm, 133.4247 mm): Pad 1 [+3V3_FMU] of R48 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
     @(113.1235 mm, 129.4312 mm): Segment of R38 on F.Silkscreen
     @(113.1068 mm, 128.9106 mm): Pad 1 [Net-(J4-Pin_5)] of R38 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
@@ -1475,14 +1471,10 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(108.2465 mm, 124.9637 mm): Segment of C25 on F.Silkscreen
-    @(108.6187 mm, 125.3237 mm): Pad 1 [+3V3_FMU] of C25 on F.Cu
+    @(107.6587 mm, 125.3237 mm): Pad 2 [GND] of C25 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(108.2465 mm, 124.9637 mm): Segment of C25 on F.Silkscreen
-    @(107.6587 mm, 125.3237 mm): Pad 2 [GND] of C25 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(108.2465 mm, 125.6837 mm): Segment of C25 on F.Silkscreen
     @(108.6187 mm, 125.3237 mm): Pad 1 [+3V3_FMU] of C25 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -1490,6 +1482,10 @@
     @(107.6587 mm, 125.3237 mm): Pad 2 [GND] of C25 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
+    @(108.2465 mm, 125.6837 mm): Segment of C25 on F.Silkscreen
+    @(108.6187 mm, 125.3237 mm): Pad 1 [+3V3_FMU] of C25 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
     @(123.3989 mm, 120.1700 mm): Segment of R93 on F.Silkscreen
     @(124.0625 mm, 120.5500 mm): Pad 2 [+3V3_FMU] of R93 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
@@ -1507,19 +1503,19 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(125.8214 mm, 140.0200 mm): Segment of R99 on F.Silkscreen
-    @(126.4850 mm, 140.4000 mm): Pad 2 [+3V3_FMU] of R99 on F.Cu
+    @(125.4650 mm, 140.4000 mm): Pad 1 [~{GPS_OC}] of R99 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(125.8214 mm, 140.0200 mm): Segment of R99 on F.Silkscreen
-    @(125.4650 mm, 140.4000 mm): Pad 1 [~{GPS_OC}] of R99 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(125.8214 mm, 140.7800 mm): Segment of R99 on F.Silkscreen
     @(126.4850 mm, 140.4000 mm): Pad 2 [+3V3_FMU] of R99 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(125.8214 mm, 140.7800 mm): Segment of R99 on F.Silkscreen
     @(125.4650 mm, 140.4000 mm): Pad 1 [~{GPS_OC}] of R99 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(125.8214 mm, 140.7800 mm): Segment of R99 on F.Silkscreen
+    @(126.4850 mm, 140.4000 mm): Pad 2 [+3V3_FMU] of R99 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(123.8464 mm, 130.9450 mm): Segment of R95 on F.Silkscreen
@@ -1639,14 +1635,10 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(107.2361 mm, 137.9235 mm): Segment of R52 on F.Silkscreen
-    @(107.0356 mm, 137.1856 mm): Pad 2 [UART4_RX] of R52 on F.Cu
+    @(107.7568 mm, 137.9068 mm): Pad 1 [Net-(J8-Pin_3)] of R52 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(107.2361 mm, 137.9235 mm): Segment of R52 on F.Silkscreen
-    @(107.7568 mm, 137.9068 mm): Pad 1 [Net-(J8-Pin_3)] of R52 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(107.7735 mm, 137.3861 mm): Segment of R52 on F.Silkscreen
     @(107.0356 mm, 137.1856 mm): Pad 2 [UART4_RX] of R52 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -1654,6 +1646,10 @@
     @(107.7568 mm, 137.9068 mm): Pad 1 [Net-(J8-Pin_3)] of R52 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
+    @(107.7735 mm, 137.3861 mm): Segment of R52 on F.Silkscreen
+    @(107.0356 mm, 137.1856 mm): Pad 2 [UART4_RX] of R52 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
     @(114.3200 mm, 159.0364 mm): Segment of R77 on F.Silkscreen
     @(114.7000 mm, 158.6800 mm): Pad 1 [TIM4_CH2] of R77 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
@@ -1700,14 +1696,14 @@
     Rule: Pad to Silkscreen; warning
     @(102.6300 mm, 173.6364 mm): Segment of R75 on F.Silkscreen
     @(102.2500 mm, 174.3000 mm): Pad 2 [Net-(J26-Pin_1)] of R75 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(114.3200 mm, 173.6864 mm): Segment of R79 on F.Silkscreen
-    @(114.7000 mm, 174.3500 mm): Pad 2 [Net-(J30-Pin_1)] of R79 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(114.3200 mm, 173.6864 mm): Segment of R79 on F.Silkscreen
     @(114.7000 mm, 173.3300 mm): Pad 1 [TIM1_CH3] of R79 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(114.3200 mm, 173.6864 mm): Segment of R79 on F.Silkscreen
+    @(114.7000 mm, 174.3500 mm): Pad 2 [Net-(J30-Pin_1)] of R79 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(115.0800 mm, 173.6864 mm): Segment of R79 on F.Silkscreen
@@ -1767,14 +1763,10 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(89.8082 mm, 131.2706 mm): Segment of R64 on F.Silkscreen
-    @(89.8249 mm, 130.7499 mm): Pad 1 [Net-(J16-Pin_4)] of R64 on F.Cu
+    @(90.5462 mm, 131.4712 mm): Pad 2 [ADC1_INP11] of R64 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(89.8082 mm, 131.2706 mm): Segment of R64 on F.Silkscreen
-    @(90.5462 mm, 131.4712 mm): Pad 2 [ADC1_INP11] of R64 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(90.3456 mm, 130.7332 mm): Segment of R64 on F.Silkscreen
     @(89.8249 mm, 130.7499 mm): Pad 1 [Net-(J16-Pin_4)] of R64 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -1782,6 +1774,10 @@
     @(90.5462 mm, 131.4712 mm): Pad 2 [ADC1_INP11] of R64 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
+    @(90.3456 mm, 130.7332 mm): Segment of R64 on F.Silkscreen
+    @(89.8249 mm, 130.7499 mm): Pad 1 [Net-(J16-Pin_4)] of R64 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
     @(90.5082 mm, 130.5456 mm): Segment of R63 on F.Silkscreen
     @(90.5249 mm, 130.0249 mm): Pad 1 [Net-(J16-Pin_3)] of R63 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
@@ -1799,14 +1795,10 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(104.5087 mm, 122.8958 mm): Segment of C27 on F.Silkscreen
-    @(104.8687 mm, 123.4837 mm): Pad 2 [+5V_PERIPH] of C27 on F.Cu
+    @(104.8687 mm, 122.5237 mm): Pad 1 [GND] of C27 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(104.5087 mm, 122.8958 mm): Segment of C27 on F.Silkscreen
-    @(104.8687 mm, 122.5237 mm): Pad 1 [GND] of C27 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(105.2287 mm, 122.8958 mm): Segment of C27 on F.Silkscreen
     @(104.8687 mm, 123.4837 mm): Pad 2 [+5V_PERIPH] of C27 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -1814,20 +1806,24 @@
     @(104.8687 mm, 122.5237 mm): Pad 1 [GND] of C27 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(94.7582 mm, 126.1206 mm): Segment of R2 on F.Silkscreen
-    @(95.4962 mm, 126.3212 mm): Pad 2 [/Microcontroller/LED_BOOT] of R2 on F.Cu
+    @(105.2287 mm, 122.8958 mm): Segment of C27 on F.Silkscreen
+    @(104.8687 mm, 123.4837 mm): Pad 2 [+5V_PERIPH] of C27 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(94.7582 mm, 126.1206 mm): Segment of R2 on F.Silkscreen
     @(94.7749 mm, 125.5999 mm): Pad 1 [Net-(D2-K)] of R2 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(95.2956 mm, 125.5832 mm): Segment of R2 on F.Silkscreen
+    @(94.7582 mm, 126.1206 mm): Segment of R2 on F.Silkscreen
     @(95.4962 mm, 126.3212 mm): Pad 2 [/Microcontroller/LED_BOOT] of R2 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(95.2956 mm, 125.5832 mm): Segment of R2 on F.Silkscreen
     @(94.7749 mm, 125.5999 mm): Pad 1 [Net-(D2-K)] of R2 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(95.2956 mm, 125.5832 mm): Segment of R2 on F.Silkscreen
+    @(95.4962 mm, 126.3212 mm): Pad 2 [/Microcontroller/LED_BOOT] of R2 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(95.4582 mm, 125.4206 mm): Segment of R3 on F.Silkscreen
@@ -1911,27 +1907,27 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(98.7575 mm, 148.8362 mm): Segment of R50 on F.Silkscreen
-    @(98.4012 mm, 148.4562 mm): Pad 1 [Net-(D7-K)] of R50 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(98.7575 mm, 148.8362 mm): Segment of R50 on F.Silkscreen
     @(99.4212 mm, 148.4562 mm): Pad 2 [+5V_PERIPH] of R50 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(97.0832 mm, 140.4217 mm): Segment of R59 on F.Silkscreen
-    @(97.8212 mm, 140.2212 mm): Pad 2 [USART3_RX] of R59 on F.Cu
+    @(98.7575 mm, 148.8362 mm): Segment of R50 on F.Silkscreen
+    @(98.4012 mm, 148.4562 mm): Pad 1 [Net-(D7-K)] of R50 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(97.0832 mm, 140.4217 mm): Segment of R59 on F.Silkscreen
     @(97.0999 mm, 140.9424 mm): Pad 1 [Net-(J14-Pin_3)] of R59 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(97.6206 mm, 140.9591 mm): Segment of R59 on F.Silkscreen
+    @(97.0832 mm, 140.4217 mm): Segment of R59 on F.Silkscreen
     @(97.8212 mm, 140.2212 mm): Pad 2 [USART3_RX] of R59 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(97.6206 mm, 140.9591 mm): Segment of R59 on F.Silkscreen
     @(97.0999 mm, 140.9424 mm): Pad 1 [Net-(J14-Pin_3)] of R59 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(97.6206 mm, 140.9591 mm): Segment of R59 on F.Silkscreen
+    @(97.8212 mm, 140.2212 mm): Pad 2 [USART3_RX] of R59 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(101.8129 mm, 141.8005 mm): Segment of R34 on F.Silkscreen
@@ -1943,11 +1939,11 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(103.3255 mm, 141.5879 mm): Segment of R61 on F.Silkscreen
-    @(103.8462 mm, 141.5712 mm): Pad 1 [Net-(J14-Pin_5)] of R61 on F.Cu
+    @(103.1249 mm, 140.8499 mm): Pad 2 [USART3_RTS] of R61 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(103.3255 mm, 141.5879 mm): Segment of R61 on F.Silkscreen
-    @(103.1249 mm, 140.8499 mm): Pad 2 [USART3_RTS] of R61 on F.Cu
+    @(103.8462 mm, 141.5712 mm): Pad 1 [Net-(J14-Pin_5)] of R61 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(103.8629 mm, 141.0505 mm): Segment of R61 on F.Silkscreen
@@ -1967,19 +1963,19 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(105.9162 mm, 146.4175 mm): Segment of R53 on F.Silkscreen
-    @(105.5362 mm, 147.0812 mm): Pad 2 [Net-(Q1-G)] of R53 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(105.9162 mm, 146.4175 mm): Segment of R53 on F.Silkscreen
     @(105.5362 mm, 146.0612 mm): Pad 1 [GND] of R53 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(105.1562 mm, 148.3275 mm): Segment of R49 on F.Silkscreen
-    @(105.5362 mm, 147.9712 mm): Pad 1 [Net-(Q1-G)] of R49 on F.Cu
+    @(105.9162 mm, 146.4175 mm): Segment of R53 on F.Silkscreen
+    @(105.5362 mm, 147.0812 mm): Pad 2 [Net-(Q1-G)] of R53 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(105.1562 mm, 148.3275 mm): Segment of R49 on F.Silkscreen
     @(105.5362 mm, 148.9912 mm): Pad 2 [ALARM] of R49 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(105.1562 mm, 148.3275 mm): Segment of R49 on F.Silkscreen
+    @(105.5362 mm, 147.9712 mm): Pad 1 [Net-(Q1-G)] of R49 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(91.0785 mm, 122.9298 mm): Segment of C13 on F.Silkscreen
@@ -2003,14 +1999,10 @@
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(88.9548 mm, 125.0285 mm): Segment of C16 on F.Silkscreen
-    @(88.9462 mm, 125.5462 mm): Pad 1 [Net-(U1-PH1)] of C16 on F.Cu
+    @(89.6250 mm, 124.8674 mm): Pad 2 [GND] of C16 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(88.9548 mm, 125.0285 mm): Segment of C16 on F.Silkscreen
-    @(89.6250 mm, 124.8674 mm): Pad 2 [GND] of C16 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(89.4639 mm, 125.5376 mm): Segment of C16 on F.Silkscreen
     @(88.9462 mm, 125.5462 mm): Pad 1 [Net-(U1-PH1)] of C16 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -2018,11 +2010,19 @@
     @(89.6250 mm, 124.8674 mm): Pad 2 [GND] of C16 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
+    @(89.4639 mm, 125.5376 mm): Segment of C16 on F.Silkscreen
+    @(88.9462 mm, 125.5462 mm): Pad 1 [Net-(U1-PH1)] of C16 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
+    @(91.4433 mm, 127.5807 mm): Segment of R55 on F.Silkscreen
+    @(92.1812 mm, 127.7812 mm): Pad 2 [ADC3_INP8] of R55 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
+    Rule: Pad to Silkscreen; warning
     @(91.4433 mm, 127.5807 mm): Segment of R55 on F.Silkscreen
     @(91.4600 mm, 127.0600 mm): Pad 1 [Net-(J9-Pin_4)] of R55 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(91.4433 mm, 127.5807 mm): Segment of R55 on F.Silkscreen
+    @(91.9807 mm, 127.0433 mm): Segment of R55 on F.Silkscreen
     @(92.1812 mm, 127.7812 mm): Pad 2 [ADC3_INP8] of R55 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
@@ -2030,24 +2030,20 @@
     @(91.4600 mm, 127.0600 mm): Pad 1 [Net-(J9-Pin_4)] of R55 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(91.9807 mm, 127.0433 mm): Segment of R55 on F.Silkscreen
-    @(92.1812 mm, 127.7812 mm): Pad 2 [ADC3_INP8] of R55 on F.Cu
+    @(87.5139 mm, 135.9700 mm): Segment of R97 on F.Silkscreen
+    @(88.1775 mm, 136.3500 mm): Pad 2 [+3V3_FMU] of R97 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(87.5139 mm, 135.9700 mm): Segment of R97 on F.Silkscreen
     @(87.1575 mm, 136.3500 mm): Pad 1 [~{I2C_OC}] of R97 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
-    @(87.5139 mm, 135.9700 mm): Segment of R97 on F.Silkscreen
+    @(87.5139 mm, 136.7300 mm): Segment of R97 on F.Silkscreen
     @(88.1775 mm, 136.3500 mm): Pad 2 [+3V3_FMU] of R97 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(87.5139 mm, 136.7300 mm): Segment of R97 on F.Silkscreen
     @(87.1575 mm, 136.3500 mm): Pad 1 [~{I2C_OC}] of R97 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
-    Rule: Pad to Silkscreen; warning
-    @(87.5139 mm, 136.7300 mm): Segment of R97 on F.Silkscreen
-    @(88.1775 mm, 136.3500 mm): Pad 2 [+3V3_FMU] of R97 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1000 mm)
     Rule: Pad to Silkscreen; warning
     @(98.8200 mm, 101.1482 mm): Segment of C32 on F.Silkscreen
@@ -2513,9 +2509,6 @@
 [via_dangling]: Via is not connected or connected on only one layer
     Local override; warning
     @(102.7450 mm, 106.1400 mm): Via [+3V3_SENS] on F.Cu - B.Cu
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(102.4423 mm, 131.3423 mm): Track [GND] on F.Cu, length 0.0109 mm
 [via_dangling]: Via is not connected or connected on only one layer
     Local override; warning
     @(110.5300 mm, 150.1000 mm): Via [+5V_PERIPH] on F.Cu - B.Cu
@@ -2584,12 +2577,6 @@
     @(125.3400 mm, 127.9750 mm): Via [+5V_SERIAL4] on F.Cu - B.Cu
 [via_dangling]: Via is not connected or connected on only one layer
     Local override; warning
-    @(64.4350 mm, 129.5300 mm): Via [+VBRICK2] on F.Cu - B.Cu
-[via_dangling]: Via is not connected or connected on only one layer
-    Local override; warning
-    @(67.0100 mm, 128.0050 mm): Via [+VBRICK2] on F.Cu - B.Cu
-[via_dangling]: Via is not connected or connected on only one layer
-    Local override; warning
     @(109.2250 mm, 131.3250 mm): Via [SD_DAT2] on F.Cu - B.Cu
 [track_dangling]: Track has unconnected end
     Local override; warning
@@ -2627,9 +2614,6 @@
 [via_dangling]: Via is not connected or connected on only one layer
     Local override; warning
     @(107.3325 mm, 103.5310 mm): Via [SPI1_MOSI] on F.Cu - B.Cu
-[via_dangling]: Via is not connected or connected on only one layer
-    Local override; warning
-    @(103.3075 mm, 103.7310 mm): Via [SPI1_MISO] on F.Cu - B.Cu
 [track_dangling]: Track has unconnected end
     Local override; warning
     @(106.0400 mm, 125.2600 mm): Track [SPI6_SCK] on F.Cu, length 0.8600 mm
@@ -2659,46 +2643,18 @@
     @(90.0250 mm, 105.3000 mm): Zone '+3V3_SENS' [+3V3_SENS] on F.Cu, priority 5
 [isolated_copper]: Isolated copper fill
     Local override; warning
-    @(33.7750 mm, 94.8000 mm): Zone 'GND' [GND] on In1.Cu and In4.Cu, priority 7
-[isolated_copper]: Isolated copper fill
-    Local override; warning
-    @(33.7750 mm, 94.8000 mm): Zone 'GND' [GND] on In1.Cu and In4.Cu, priority 7
-[isolated_copper]: Isolated copper fill
-    Local override; warning
     @(75.5500 mm, 153.0500 mm): Zone '+3V3_FMU' [+3V3_FMU] on In3.Cu, priority 6
 [isolated_copper]: Isolated copper fill
     Local override; warning
     @(75.5500 mm, 153.0500 mm): Zone '+3V3_FMU' [+3V3_FMU] on In3.Cu, priority 6
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(33.7750 mm, 94.8000 mm): Zone 'GND' [GND] on In1.Cu and In4.Cu, priority 7
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(33.7750 mm, 94.8000 mm): Zone 'GND' [GND] on In1.Cu and In4.Cu, priority 7
 
-** Found 7 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(41.6575 mm, 126.2750 mm): Pad 2 [GND] of R1 on F.Cu
-    @(46.4500 mm, 133.7500 mm): Pad 6 [GND] of J9 on B.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(100.3424 mm, 127.9424 mm): Pad 2 [GND] of C24 on B.Cu
-    @(100.1462 mm, 129.0712 mm): Via [GND] on F.Cu - B.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(102.4423 mm, 131.3423 mm): Track [GND] on F.Cu, length 0.0109 mm
-    @(101.1000 mm, 130.4231 mm): Track [GND] on F.Cu, length 1.3000 mm
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(97.5462 mm, 130.7462 mm): Track [+3V3_FMU] on B.Cu, length 0.9899 mm
-    @(96.9635 mm, 131.8019 mm): Pad K4 [+3V3_FMU] of U1 on F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(57.6400 mm, 129.0600 mm): Track [+VBRICK1] on F.Cu, length 0.3818 mm
-    @(56.6100 mm, 129.3800 mm): Track [+VBRICK1] on F.Cu, length 0.4750 mm
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(65.1000 mm, 129.4050 mm): Track [+VBRICK2] on F.Cu, length 0.5400 mm
-    @(67.0100 mm, 128.0050 mm): Track [+VBRICK2] on F.Cu, length 0.0500 mm
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(106.3700 mm, 103.8235 mm): Track [SPI1_MISO] on F.Cu, length 0.5450 mm
-    @(103.8700 mm, 103.8235 mm): Track [SPI1_MISO] on F.Cu, length 0.4700 mm
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
