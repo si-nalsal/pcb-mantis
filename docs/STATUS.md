@@ -65,9 +65,9 @@ so they add no nets.
 |---|---:|---|---|
 | `silk_overlap` | 199 | no | cosmetic — clear with **Autoplace Fields** at the end |
 | `lib_footprint_mismatch` | 119 | no | footprint cache drift vs library, geometry unaffected |
-| `track_width` | 97 | ⚠️ rule gap | 0.10 mm tracks **outside** the `U1_BGA` rule area vs global 0.127 mm (was 199) |
+| `track_width` | 97 | ⚠️ rule gap | 0.100 mm tracks under the global "outer layer (1oz)" rule (min 0.127 mm); the `U1_BGA` rule area that allows 0.10 mm does **not** cover them (was 199) |
 | `silk_over_copper` | 62 | no | cosmetic |
-| `clearance` | 26 | ⚠️ | tightest is BGA fan-out, 0.0899 mm actual (was 28) |
+| `clearance` | 26 | ⚠️ | 6 inside `U1_BGA` fan-out (lowest **0.0916 mm** vs 0.120 rule) · 8 pad/via↔pad/via (lowest 0.1018) · 6 outer-layer track spacing (0.100) · 5 other · 1 track↔pad (0.1865 vs 0.200). 4 of them are **outside** the BGA area |
 | `hole_clearance` | 15 | ⚠️ | track-to-hole below rule (was 22) |
 | `solder_mask_bridge` | 14 | ⚠️ DFM | mask aperture bridging at tight pad pairs |
 | `track_dangling` | 14 | ⚠️ | unterminated track ends (was 10) |
