@@ -6453,6 +6453,428 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Svayam:PS-5850SVA-3PL"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PS-5850SVA-3PL"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_G-SWITCH_PS-5850SVX-3PL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5155594.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, latching (push-on/push-off), SPDT, 3-pin, 0.5A 24VDC"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PS-5850SVA-3PL"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5155594"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch push-button SPDT self-locking alternate action"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PS-5850SVA-3PL_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PS-5850SVA-3PL_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Svayam:PS-5850SVA-3PN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PS-5850SVA-3PN"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_G-SWITCH_PS-5850SVX-3PL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5155595.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, momentary (non-latching), SPDT, 3-pin, 0.5A 24VDC"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PS-5850SVA-3PN"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5155595"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch push-button SPDT self-locking alternate action"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PS-5850SVA-3PN_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PS-5850SVA-3PN_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -7598,6 +8020,12 @@
 		(uuid "3abbd560-c522-4ad5-b491-0accad1b24db")
 	)
 	(junction
+		(at 173.99 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f007f22-6e47-4ec2-bfc9-91317a4132f2")
+	)
+	(junction
 		(at 224.79 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7656,12 +8084,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e3450ec-14e0-4262-a520-a924fda8ac33")
-	)
-	(junction
-		(at 173.99 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f65e28d-a419-427a-9a1d-502b2821071e")
 	)
 	(junction
 		(at 46.99 31.75)
@@ -8088,6 +8510,10 @@
 	(no_connect
 		(at 189.23 109.22)
 		(uuid "a717e226-719f-400e-aabf-0c8c621a1e4c")
+	)
+	(no_connect
+		(at 170.18 39.37)
+		(uuid "b0d8d4ad-40d1-4820-bdce-ac1284ad4f3f")
 	)
 	(no_connect
 		(at 189.23 78.74)
@@ -8791,6 +9217,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 41.91) (xy 156.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb934ba-fd34-404f-9496-6f39d087d412")
+	)
+	(wire
+		(pts
 			(xy 337.82 140.97) (xy 337.82 135.89)
 		)
 		(stroke
@@ -9478,16 +9914,6 @@
 			(type default)
 		)
 		(uuid "615ddd36-293d-4bcd-84f2-e1aea53a0a13")
-	)
-	(wire
-		(pts
-			(xy 173.99 44.45) (xy 173.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ad0559-85ab-4440-8126-650c5ffdd710")
 	)
 	(wire
 		(pts
@@ -10731,6 +11157,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 44.45) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2ff4be-9fd5-4335-9680-37de95bfa88a")
+	)
+	(wire
+		(pts
 			(xy 182.88 160.02) (xy 189.23 160.02)
 		)
 		(stroke
@@ -10901,7 +11337,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 156.21 44.45)
+			(xy 160.02 41.91) (xy 156.21 41.91)
 		)
 		(stroke
 			(width 0)
@@ -19881,7 +20317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "Svayam:PS-5850SVA-3PL")
 		(at 133.35 55.88 180)
 		(unit 1)
 		(body_style 1)
@@ -19901,8 +20337,8 @@
 				)
 			)
 		)
-		(property "Value" "SK-3296S-01-L3"
-			(at 136.906 60.96 0)
+		(property "Value" "PS-5850SVA-3PL"
+			(at 133.35 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19911,8 +20347,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_SK-3296S-01-L3"
-			(at 133.35 55.88 0)
+		(property "Footprint" "easyeda2kicad:SW-SMD_G-SWITCH_PS-5850SVX-3PL"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19922,8 +20358,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 48.26 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155594.pdf"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19933,8 +20369,8 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 133.35 55.88 0)
+		(property "Description" "Push button switch, latching (push-on/push-off), SPDT, 3-pin, 0.5A 24VDC"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19944,8 +20380,8 @@
 				)
 			)
 		)
-		(property "MPN" "SK-3296S-01-L3"
-			(at 133.35 55.88 0)
+		(property "MPN" "PS-5850SVA-3PL"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19955,14 +20391,25 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "c4830b0f-b9c6-4956-9851-2d6fe4d2f1db")
+		(property "LCSC" "C5155594"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "f2ebabf6-6d5a-4166-9bb5-26872324f116")
+		(pin "4"
+			(uuid "127b41d0-79ef-429b-be28-57d82aae9e2d")
 		)
-		(pin "2"
-			(uuid "9e80062c-87d9-4331-a91a-4ec97bcab0e4")
+		(pin "5"
+			(uuid "5b96c6db-ef8a-4aff-9bd0-412c69017c15")
+		)
+		(pin "6"
+			(uuid "f4bb2c02-5745-444c-b743-f2fefa10ce02")
 		)
 		(instances
 			(project "SvayamV3_IIK"
@@ -20501,8 +20948,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 165.1 44.45 0)
+		(lib_id "Svayam:PS-5850SVA-3PN")
+		(at 165.1 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20512,7 +20959,7 @@
 		(dnp no)
 		(uuid "dd7e855b-e485-491f-b405-c3fa7a55a20f")
 		(property "Reference" "SW2"
-			(at 162.052 41.91 0)
+			(at 165.1 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20521,8 +20968,8 @@
 				)
 			)
 		)
-		(property "Value" "TS-1010A-B"
-			(at 165.862 39.878 0)
+		(property "Value" "PS-5850SVA-3PN"
+			(at 165.1 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20531,8 +20978,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_TS-1010A-B"
-			(at 165.1 39.37 0)
+		(property "Footprint" "easyeda2kicad:SW-SMD_G-SWITCH_PS-5850SVX-3PL"
+			(at 0 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20542,8 +20989,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 39.37 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155595.pdf"
+			(at 0 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20553,8 +21000,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 44.45 0)
+		(property "Description" "Push button switch, momentary, SPDT, 3-pin, 0.5A 24VDC"
+			(at 0 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20564,8 +21011,8 @@
 				)
 			)
 		)
-		(property "MPN" "TS-1010A-B"
-			(at 165.1 44.45 0)
+		(property "MPN" "PS-5850SVA-3PN"
+			(at 0 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20575,11 +21022,25 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "91fc779c-c67f-45e4-b8df-106659a57fc0")
+		(property "LCSC" "C5155595"
+			(at 0 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "65dd2757-ceeb-49c9-8666-cb547d423842")
+		(pin "4"
+			(uuid "ca4f38ea-1830-4064-b764-a3145f993cb0")
+		)
+		(pin "5"
+			(uuid "9accb21c-f2f9-4916-baec-82cfa497644d")
+		)
+		(pin "6"
+			(uuid "448da551-5096-4304-9498-76aab0141367")
 		)
 		(instances
 			(project "SvayamV3_IIK"
