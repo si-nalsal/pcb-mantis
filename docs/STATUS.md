@@ -1,6 +1,6 @@
 # Design status
 
-**Snapshot:** 2026-10-25 23:35 WIB · KiCad 10.0.6 · branch `main`, last pushed commit `5af1522`
+**Snapshot:** 2026-10-30 14:00 WIB · KiCad 10.0.4 · branch `main` · **pasca unroute global #3 — fase re-placement** (state routed penuh terakhir = commit `a63baa4`)
 
 Everything on this page was produced by running the commands shown, not estimated.
 Re-run them after each milestone — the numbers below are a baseline, not a promise.
@@ -95,6 +95,29 @@ Pad-level audit of the same snapshot (`--schematic-parity`, netlist comparison):
   (`H1`–`H4`, `J1` shell), 4 × `J10` shield pads (11–14), 11 × `SW1`/`SW2` anchor pads.
   The `J10` shield pads are the only ones worth revisiting — an ungrounded SD shield has no
   ESD return path.
+
+## Unroute global — re-placement reset (run #3, 2026-10-30 13:54)
+
+On user request, all **global inter-component routes were removed on every copper layer** so
+components can be re-arranged, while **local connections and their vias were kept**
+(decision log **D-054/D-055/D-056**):
+
+| Rule | Value |
+|---|---|
+| Removed | connected track groups **> 12.0 mm** — 79 groups, 1,185 segments |
+| Removed per layer | F.Cu −639 · In2.Cu −275 · B.Cu −182 · In3.Cu −89 |
+| Removed vias | 109 (connected only to global tracks + not stitching a same-net zone) |
+| Kept | 304 local groups (≤ 12 mm: BGA fan-out, decoupling, servo stubs, crystal, CAN) + `USB_D±` (9.77 / 2.89 mm — user re-routed) — **0 groups > 12 mm remain** |
+| Kept vias | 347 (local-connection vias + zone-stitching vias) |
+| Zones | 8 pours untouched — refill after re-placement |
+
+Board now: **1,328 segments / 347 vias / 306 groups**. DRC before/after in identical context:
+**1,095 → 741 violations**; only `unconnected_items` rose (207 → 460, the point — ratsnest).
+Every other category dropped or stayed flat (clearance 116→19, hole_clearance 149→13,
+track_width 87→53, `drill_out_of_range`/`via_diameter` → 0, `via_dangling` 199 = 199).
+
+Rollback: `SvayamV3_IIK.kicad_pcb.bak_unroute_20261030_135451` (byte-exact pre-unroute copy)
+or `git restore SvayamV3_IIK.kicad_pcb` (back to the fully-routed `a63baa4`).
 
 ## Drill capability
 
