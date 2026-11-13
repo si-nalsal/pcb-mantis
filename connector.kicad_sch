@@ -12785,7 +12785,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM04B-GHS-TBT(LF)(SN)"
+			(at 148.59 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161692"
 			(at 148.59 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12873,6 +12884,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 251.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 251.46 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12975,6 +13008,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25794"
+			(at 54.61 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2af5691-78f8-4dbb-8752-9c7f464de679")
 		)
@@ -13057,7 +13101,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 49.53 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13256,6 +13311,28 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C55266"
+			(at 525.78 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 525.78 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -13520,6 +13597,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 36.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c795307-4223-4e11-92bc-0256cbd3d770")
 		)
@@ -13603,6 +13691,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 203.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13706,6 +13805,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 304.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ef31fb4-9d6f-483c-b56d-169cf4a02841")
 		)
@@ -13778,6 +13888,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 480.06 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 480.06 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 480.06 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -13870,6 +14002,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 567.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 567.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e405058-ca6d-4c6a-b033-8d8017095d8d")
 		)
@@ -13942,6 +14096,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 304.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 304.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 304.8 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14035,6 +14211,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 355.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 355.6 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14380,6 +14567,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "44259e7f-270b-406b-bf14-3d837dff2304")
 		)
@@ -14475,6 +14684,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
+			(at 80.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 80.01 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14792,6 +15012,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 231.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 231.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 231.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15219,6 +15461,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "a5b3b07f-216c-41a8-9824-37c83d90b050")
 		)
@@ -15303,6 +15567,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 567.69 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 567.69 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 567.69 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -15491,6 +15777,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "2834e721-d980-4976-b10d-e54599cdef0e")
 		)
@@ -15663,6 +15971,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 251.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 251.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e43e2d3-843a-4047-abe2-54ea8ad72f6f")
 		)
@@ -15733,6 +16063,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 281.94 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 281.94 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 281.94 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15827,7 +16179,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM07B-GHS-TBT(LF)(SN)(N)"
+			(at 46.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C378970"
 			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15936,6 +16299,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 36.83 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 36.83 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16107,7 +16481,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 49.53 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16210,6 +16595,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 180.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 180.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14255777-c5ba-4d98-8893-3ea33ec6b55a")
 		)
@@ -16294,6 +16701,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 243.84 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 243.84 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0391c2ac-d05b-419d-aed2-438c554a776d")
 		)
@@ -16365,6 +16794,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 302.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 302.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 302.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16534,6 +16985,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 231.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 231.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4aaa1a5d-4cb9-461a-915e-6aa3a8a6b306")
 		)
@@ -16607,6 +17080,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 180.34 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 180.34 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 180.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16702,7 +17197,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 139.7 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16805,6 +17311,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 231.14 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 231.14 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "853c00fb-149b-426f-a985-033cb5bcc941")
 		)
@@ -16887,6 +17415,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25798"
+			(at 492.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF7502TCE"
+			(at 492.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "945bb583-9041-4b4e-bf12-bafff233e910")
 		)
@@ -16958,6 +17508,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 200.66 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17050,7 +17622,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM04B-GHS-TBT(LF)(SN)"
+			(at 133.35 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161692"
 			(at 133.35 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17227,7 +17810,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 91.44 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17333,6 +17927,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
+			(at 99.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 99.06 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17521,6 +18126,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "18f4de3c-ceed-46e9-9f2a-64616863e8e2")
 		)
@@ -17626,6 +18253,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 35.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ab104e9-3784-4b3d-b296-42a880dad32a")
 		)
@@ -17696,6 +18334,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 332.74 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 332.74 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 332.74 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17887,6 +18547,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ee64d022-5a3f-47e6-bab8-099f1a240366")
 		)
@@ -17969,6 +18651,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 231.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 231.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 231.14 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18064,6 +18768,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 567.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 567.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6964af43-baef-40b1-94a7-026dc58db48b")
 		)
@@ -18134,6 +18860,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 332.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 332.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 332.74 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18307,6 +19055,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 302.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 302.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f207f3dd-d760-428a-895b-fd64f3e80015")
 		)
@@ -18379,6 +19149,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -18470,6 +19262,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 353.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 353.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a40a0767-eb6e-45e8-9d8e-90466dd4cb89")
 		)
@@ -18542,6 +19356,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -18645,6 +19481,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 74.93 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8cc7725-b0b6-454d-95b1-a66168e64026")
 		)
@@ -18717,6 +19564,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18810,6 +19679,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 304.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 304.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19060,6 +19940,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 478.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 478.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e33d5ff4-bf45-41ed-b737-ec92938424f0")
 		)
@@ -19146,6 +20048,17 @@
 			)
 		)
 		(property "MPN" "AO3400A"
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19331,6 +20244,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 355.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1796b42f-c9cb-43b1-8bc0-c030ff3086b9")
 		)
@@ -19424,6 +20348,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fafd1e9-6e6f-4d8e-af9f-7ad2da7137fe")
 		)
@@ -19495,6 +20430,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 251.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 251.46 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19651,6 +20608,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 180.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 180.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 180.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19824,6 +20803,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 568.96 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 568.96 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "31dcc428-839a-45d1-b4b4-5de3340c9da0")
 		)
@@ -19907,6 +20908,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20152,6 +21164,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25745"
+			(at 492.76 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1103TCE"
+			(at 492.76 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "254e439b-88fe-4569-bfc8-2010c2eae411")
 		)
@@ -20234,6 +21268,17 @@
 			)
 		)
 		(property "MPN" "0402WGF5102TCE"
+			(at 39.37 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25794"
 			(at 39.37 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -20404,6 +21449,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 567.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 567.69 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ef34dbb-e4fc-44cf-97b9-72f310ce11f3")
 		)
@@ -20562,6 +21629,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 332.74 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 332.74 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc04be6e-a901-4f7b-9875-7293cc9dc5c1")
 		)
@@ -20646,6 +21735,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 302.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 302.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "25a4d4e5-1d89-4bc4-9df2-d301d4b29bc3")
 		)
@@ -20667,7 +21778,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20715,6 +21826,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -20796,6 +21929,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 193.04 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 193.04 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20966,7 +22121,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM03B-GHS-TBT(LF)(SN)"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161691"
 			(at 138.43 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21061,6 +22227,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2fb402cb-e569-4646-83e8-9869099ece7e")
 		)
@@ -21132,6 +22320,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 302.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 302.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 302.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21313,6 +22523,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25794"
+			(at 31.75 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac473731-8a7f-478e-ae41-83becd1202e1")
 		)
@@ -21471,6 +22692,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25779"
+			(at 492.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF3302TCE"
+			(at 492.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "159b8f77-009a-4260-bd9a-b271c007615a")
 		)
@@ -21540,6 +22783,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 492.76 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 492.76 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF4702TCE"
 			(at 492.76 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21630,6 +22895,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 281.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 281.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13cb40e8-36b3-4561-80b5-8993446b329d")
 		)
@@ -21705,6 +22992,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -21808,6 +23117,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25867"
+			(at 129.54 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bc9c0a4-4e08-4c8f-8748-b76244b96836")
 		)
@@ -21878,6 +23198,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 180.34 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 180.34 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 180.34 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22050,6 +23392,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 345.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 345.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aae4aea6-23fb-4a3a-b7b8-27c8a3370cd5")
 		)
@@ -22132,7 +23496,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 90.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22327,6 +23702,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 254 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da9203bf-9943-47f2-98c1-a2efeb994adc")
 		)
@@ -22499,6 +23885,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 35.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2faee729-6773-44b3-a562-e0574a6e0e55")
 		)
@@ -22582,6 +23979,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 36.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 36.83 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22848,6 +24256,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "00ee76ed-3c4f-4a5e-88e2-7366dd53289c")
 		)
@@ -23020,6 +24450,17 @@
 			)
 		)
 		(property "MPN" "1040310811"
+			(at 92.71 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C585350"
 			(at 92.71 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -23371,7 +24812,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM03B-GHS-TBT(LF)(SN)"
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161691"
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -23466,6 +24918,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 294.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 294.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73e587e2-c1b6-4f62-8d3e-4e8aee67abcd")
 		)
@@ -23537,6 +25011,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 243.84 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -23725,6 +25221,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "2fdb2e98-bfc2-40b1-abdc-d6f5911d9eff")
 		)
@@ -23819,6 +25337,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 567.69 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 567.69 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d5f0db9-ee06-4dea-b643-83b93e9fbf74")
 		)
@@ -23840,7 +25380,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23888,6 +25428,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -23981,6 +25543,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 254 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 254 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -24150,6 +25723,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 294.64 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 294.64 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8538946-30e7-417d-a820-f1640b7ae6d2")
 		)
@@ -24243,6 +25838,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 254 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f3308c9-3077-487c-8ccb-ef59723e50b0")
 		)
@@ -24314,6 +25920,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 193.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24481,6 +26109,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 492.76 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF5602TCE"
+			(at 492.76 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96a8d565-0b87-4c30-8bc3-7113d69ea591")
 		)
@@ -24502,7 +26152,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24560,6 +26210,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 548.64 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 548.64 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88226f95-6fad-40df-96a5-929fb20c6527")
 		)
@@ -24581,7 +26253,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24629,6 +26301,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24721,6 +26415,17 @@
 			)
 		)
 		(property "MPN" "0402WGF5101TCE"
+			(at 58.42 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -24958,6 +26663,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 492.76 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25745"
+			(at 492.76 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1103TCE"
 			(at 492.76 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -25206,6 +26933,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 294.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 294.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bffb0e41-330c-434b-8105-c22008c7ffd8")
 		)
@@ -25355,6 +27104,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 281.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 281.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 281.94 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25517,6 +27288,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 353.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 353.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 353.06 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25699,6 +27492,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "645180a6-8968-40b0-a2ae-9cc78f2703e7")
 		)
@@ -25858,6 +27662,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26107,6 +27922,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 478.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 478.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5945588f-d4e6-4d92-8ccf-29e18b9bcde7")
 		)
@@ -26190,6 +28027,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 128.27 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -26293,6 +28141,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 304.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2821b054-3291-4478-87d6-c67c92b4d3c7")
 		)
@@ -26386,6 +28245,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25077"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8a62aa4-0d67-4d85-bb5a-1abf87658f1c")
 		)
@@ -26468,7 +28338,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM04B-GHS-TBT(LF)(SN)"
+			(at 157.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161692"
 			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26656,6 +28537,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 99.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "851798db-22a6-4ac9-b454-908499d85958")
 		)
@@ -26806,6 +28698,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 567.69 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 567.69 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 567.69 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -26986,6 +28900,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25794"
+			(at 46.99 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c0b3b22-f2df-45f0-a26c-2633749e718d")
 		)
@@ -27069,6 +28994,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -27178,7 +29114,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27226,6 +29162,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -27329,6 +29287,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 135.89 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ccc7acf-c6a9-4431-bc20-ec98748d54fa")
 		)
@@ -27350,7 +29319,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27398,6 +29367,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 549.91 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 549.91 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 549.91 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -27580,6 +29571,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 355.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a37fea7-c482-4c60-9981-49c010aa5841")
 		)
@@ -27673,6 +29675,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 203.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f101cf9-a4b5-43c5-96e6-7e3fa33e3200")
 		)
@@ -27756,6 +29769,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 304.8 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 304.8 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28161,6 +30185,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 353.06 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 353.06 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c42124c7-13ce-4c76-b2d8-0bfb83ab13de")
 		)
@@ -28260,7 +30306,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -28308,6 +30354,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -28479,6 +30547,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 567.69 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 567.69 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8aa95ce6-a2da-49d2-997d-7d72718c4564")
 		)
@@ -28639,6 +30729,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 193.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 193.04 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c49221a2-8994-428a-a643-1225124c684b")
 		)
@@ -28722,6 +30834,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
+			(at 80.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -28893,7 +31016,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -28998,6 +31132,17 @@
 			)
 		)
 		(property "MPN" "0402WGF5101TCE"
+			(at 53.34 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
 			(at 53.34 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -29179,6 +31324,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9522aa90-d9cc-437d-8b6f-f5b10c6eb372")
 		)
@@ -29250,6 +31406,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 345.44 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 345.44 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 345.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -29510,6 +31688,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de0ef6aa-1a18-4a51-802d-dc17b0a81fcf")
 		)
@@ -29593,6 +31782,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 78.74 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -29696,6 +31896,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 78.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "473f6290-5c0e-438f-93b4-79ae3d39947a")
 		)
@@ -29765,6 +31976,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 494.03 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 494.03 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF4702TCE"
 			(at 494.03 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -29858,6 +32091,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -30033,6 +32277,17 @@
 			)
 		)
 		(property "MPN" "USBLC6-2SC6"
+			(at 66.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7519"
 			(at 66.04 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -30227,6 +32482,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 36.83 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2a1b06e-5549-400d-a533-46b92677d2e6")
 		)
@@ -30248,7 +32514,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -30296,6 +32562,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -30377,6 +32665,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 200.66 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -30480,6 +32790,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 355.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b607e813-4eff-4e62-920f-161f53c2c91c")
 		)
@@ -30550,6 +32871,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 332.74 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 332.74 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 332.74 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -30642,6 +32985,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25779"
+			(at 492.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF3302TCE"
+			(at 492.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fb3b060c-6d00-44d4-9b58-8f5822c2e199")
 		)
@@ -30713,6 +33078,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 243.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 243.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31039,6 +33426,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C144394"
+			(at 281.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 281.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11804c40-6d61-4644-9ed3-456ce4a197ec")
 		)
@@ -31123,6 +33532,17 @@
 			)
 		)
 		(property "MPN" "PMEG1030EJ,115"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C133633"
 			(at 88.9 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -31283,6 +33703,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -31464,6 +33906,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25794"
+			(at 62.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7482bd62-bcbc-43e2-a320-d2a0c9fed097")
 		)
@@ -31545,6 +33998,17 @@
 			)
 		)
 		(property "MPN" "TYPE-C16PIN"
+			(at 34.29 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C393939"
 			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -31693,6 +34157,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 203.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c50f00bb-1398-4ce6-aa07-d8c0823e65a2")
 		)
@@ -31764,6 +34239,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 200.66 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 200.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -32012,6 +34509,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 353.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 353.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d5ddcf0c-3845-4bad-b56c-efddcafdc1e6")
 		)
@@ -32184,6 +34703,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25120"
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b32393d-0b1c-4e26-97c0-fcfc2039dd0b")
 		)
@@ -32335,6 +34865,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 567.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 567.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 567.69 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -32659,6 +35211,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C353434"
+			(at 257.81 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMAJ6.0A"
+			(at 257.81 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "762b171f-5b38-41a4-8c67-c870a64098ed")
 		)
@@ -32970,6 +35544,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25798"
+			(at 492.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF7502TCE"
+			(at 492.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89f2cff7-2a47-488b-b503-a9bd0860947b")
 		)
@@ -33227,6 +35823,28 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C55266"
+			(at 524.51 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 524.51 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1b981ca0-e44d-4da1-873c-a2ec1b635390")
 		)
@@ -33475,6 +36093,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c27294cc-476a-4d5d-b406-81d166b57798")
 		)
@@ -33558,6 +36198,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 36.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 36.83 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -33740,6 +36391,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 80.01 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86b825c7-9b0c-41fc-b832-1b17246114f6")
 		)
@@ -33840,7 +36502,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -33888,6 +36550,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 548.64 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 548.64 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 548.64 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -33969,6 +36653,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 345.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 345.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 345.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -34228,6 +36934,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 128.27 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77189693-397b-451f-b899-b7dd2f0ff7c6")
 		)
@@ -34378,6 +37095,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 345.44 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 345.44 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
 			(at 345.44 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -34548,6 +37287,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 243.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 243.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "939579a6-5ed9-4257-acf9-fe4bf4c5934b")
 		)
@@ -34620,6 +37381,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161691"
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BM03B-GHS-TBT(LF)(SN)"
 			(at 60.96 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -34869,7 +37652,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PZ254V-11-02P"
+			(at 109.22 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C492401"
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -35117,6 +37911,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 294.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 294.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7ff1f2b-d5b7-4401-bf57-8bfaf38adaea")
 		)
@@ -35200,6 +38016,17 @@
 			)
 		)
 		(property "MPN" "0402WGF1200TCE"
+			(at 135.89 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
 			(at 135.89 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -35303,6 +38130,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25079"
+			(at 36.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b339ff1-ec1a-47c7-89d4-2218e7dbcb8f")
 		)
@@ -35385,6 +38223,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 289.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 289.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "94786abe-3abd-44ec-8a8e-fa3def9bb127")
 		)
@@ -35457,6 +38317,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 478.79 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 478.79 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 478.79 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -35783,6 +38665,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C492404"
+			(at 76.2 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PZ254V-11-05P"
+			(at 76.2 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a146839a-bea0-4698-bace-c8a0ce19df59")
 		)
@@ -35874,6 +38778,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C90274"
+			(at 274.32 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VT1C221M0607"
+			(at 274.32 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c741d68-ca56-4027-abd5-1e80ee65748f")
 		)
@@ -35945,6 +38871,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 251.46 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -36116,7 +39064,18 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BM06B-GHS-TBT(LF)(SN)"
+			(at 46.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C189892"
 			(at 46.99 78.74 0)
 			(hide yes)
 			(show_name no)

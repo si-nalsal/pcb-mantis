@@ -712,7 +712,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -902,6 +902,12 @@
           "group_by": false,
           "label": "Purchase-URL",
           "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": false
         }
       ],

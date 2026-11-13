@@ -171,3 +171,34 @@
   (layer "F.Cu")
   (condition "A.memberOfFootprint('U10') && A.Type == 'Pad' && B.Type == 'Track' && A.Net != B.Net && (B.NetName == '+VBRICK1' || B.NetName == '+VBRICK2' || B.NetName == '/Power/VIN_BB')")
   (constraint clearance (min 0.15mm)))
+# ===== Via-in-pad U11 (TPS63070) pin L1/L2 -> induktor L1 - ditambahkan 11 Nov 2026 =====
+# Cakupan: 6 via di dalam pad U11 -> 3 via Net-(U11-L1) di pad 11, 3 via Net-(U11-L2) di pad 9.
+# Filter net wajib: courtyard U11 juga berisi via GND, /Power/VSEL dan +5V_IN yang BUKAN via-in-pad.
+# Fabrikasi: via ini harus diisi & ditutup (filled & capped / POFV, IPC-4761 Type VII),
+# karena lubangnya overlap dengan aperture paste pad 9/11 (risiko solder wicking / void).
+# Rule ditaruh di akhir supaya menang atas rule umum (rule terakhir yang cocok yang dipakai).
+
+(rule "VIP U11: ukuran via (diameter)"
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)')")
+	(constraint via_diameter (min 0.45mm) (max 0.55mm)))
+
+(rule "VIP U11: ukuran drill"
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)')")
+	(constraint hole_size (min 0.25mm) (max 0.3mm)))
+
+(rule "VIP U11: annular ring"
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)')")
+	(constraint annular_width (min 0.1mm)))
+
+(rule "VIP U11: hole ke hole sesama net"
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)') && A.Net == B.Net")
+	(constraint hole_to_hole (min 0.25mm)))
+
+(rule "VIP U11: clearance tembaga ke pad U11 beda net"
+	(layer outer)
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)') && B.memberOfFootprint('U11') && B.Type == 'Pad' && A.Net != B.Net")
+	(constraint clearance (min 0.13mm)))
+
+(rule "VIP U11: hole ke tembaga beda net"
+	(condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'Net-(U11-L1)' || A.NetName == 'Net-(U11-L2)') && A.Net != B.Net")
+	(constraint hole_clearance (min 0.2mm)))
