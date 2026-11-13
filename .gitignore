@@ -73,3 +73,23 @@ SvayamV3_IIK-backups/
 .deepseek-sources/
 .DS_Store
 Thumbs.db
+
+# ---------- release package & archives (2026-11-13) ----------
+# Placed last so they win over the *.zip rule above.
+!/archive/
+!/archive/*.zip
+!/fabrication/SvayamV3_IIK-gerber-JLCPCB.zip
+!/fabrication/gerbers/*.gtl
+!/fabrication/gerbers/*.gbl
+!/fabrication/gerbers/*.g[1-4]
+!/fabrication/gerbers/*.gts
+!/fabrication/gerbers/*.gbs
+!/fabrication/gerbers/*.gtp
+!/fabrication/gerbers/*.gbp
+!/fabrication/gerbers/*.gto
+!/fabrication/gerbers/*.gbo
+!/fabrication/gerbers/*.gm1
+# local scratch / backups of fabrication outputs
+/fabrication/_arsip_lama/
+/fabrication/_preview/
+/fabrication/**/bak_*/
