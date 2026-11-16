@@ -2370,7 +2370,7 @@
 		)
 		(uuid "46db95fb-9137-4a7f-a5ec-5a05546e8867")
 	)
-	(text "PR1 - if >= 4.18 H else L\nOV1 and OV2 - 5.63V\nILM - 3.40A"
+	(text "PR1 - if >= 4.18 H else L\nOV1 and OV2 - 6.02V (R17/R19 4k7)\nILM - 3.40A"
 		(exclude_from_sim no)
 		(at 101.854 91.948 0)
 		(effects
@@ -2389,26 +2389,6 @@
 			)
 		)
 		(uuid "7604d864-e5ad-4586-86b0-6789932f9c9f")
-	)
-	(text "REVIEW - FILTER/BEAD/CAP"
-		(exclude_from_sim no)
-		(at 129.54 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88edc850-036f-432d-b83a-5fda6f2a082e")
-	)
-	(text "REVIEW PULLUP RES\n"
-		(exclude_from_sim no)
-		(at 268.478 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9de28233-f520-4e7c-9e1b-3873c1d309d5")
 	)
 	(junction
 		(at 71.12 175.26)
@@ -2984,16 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 25.4) (xy 283.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12647d6a-d821-4310-8a96-59b0e976b714")
-	)
-	(wire
-		(pts
 			(xy 77.47 39.37) (xy 82.55 39.37)
 		)
 		(stroke
@@ -3001,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "15de6139-ed52-4f1d-a7a1-26022b3e8e9d")
-	)
-	(wire
-		(pts
-			(xy 290.83 25.4) (xy 283.21 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1693ead5-0299-4a3c-8a1a-847c16020713")
 	)
 	(wire
 		(pts
@@ -5197,7 +5157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4k7"
 			(at 72.39 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5201,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE"
+		(property "MPN" "0402WGF4701TCE"
 			(at 69.85 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5252,7 +5212,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C25900"
 			(at 69.85 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10337,7 +10297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "4k7"
 			(at 72.39 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10381,7 +10341,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF5101TCE"
+		(property "MPN" "0402WGF4701TCE"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10352,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C25900"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11668,6 +11628,84 @@
 			(project "SvayamV3_IIK"
 				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/2ff0eb00-5571-4dd0-aeb9-3620bb54898f"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 290.83 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddf457e6-7123-4a42-b853-e2da2488618a")
+		(property "Reference" "#PWR179"
+			(at 290.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_FMU"
+			(at 287.274 21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 290.83 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "130f37b5-f56d-4d82-b0b5-aff54795f302")
+		)
+		(instances
+			(project "SvayamV3_IIK"
+				(path "/2845b085-eb04-41a1-8594-b2a880ca4ab0/2ff0eb00-5571-4dd0-aeb9-3620bb54898f"
+					(reference "#PWR179")
 					(unit 1)
 				)
 			)

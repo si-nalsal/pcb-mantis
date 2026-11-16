@@ -2757,10 +2757,6 @@
 		(uuid "0e8c866f-c25b-46b6-80e8-d11e90b0c26f")
 	)
 	(no_connect
-		(at 78.74 46.99)
-		(uuid "3480ff3d-d5da-492d-a465-54a051bed11f")
-	)
-	(no_connect
 		(at 78.74 54.61)
 		(uuid "3efeb9d0-4f12-41ff-80c6-7634c63976b6")
 	)
@@ -2777,20 +2773,12 @@
 		(uuid "af6249e9-2de0-4dd4-8f0b-2dd54efdf054")
 	)
 	(no_connect
-		(at 162.56 57.15)
-		(uuid "b1485153-1d8e-434d-bb35-a5cb813a1f08")
-	)
-	(no_connect
 		(at 162.56 39.37)
 		(uuid "c18b1f0f-9635-47df-9029-a63019850409")
 	)
 	(no_connect
 		(at 78.74 49.53)
 		(uuid "d5c0663a-3246-4d4d-a611-b75864123456")
-	)
-	(no_connect
-		(at 78.74 52.07)
-		(uuid "efc55903-e55f-4992-9ad1-f7e3515b1101")
 	)
 	(no_connect
 		(at 132.08 39.37)
@@ -3846,6 +3834,30 @@
 		)
 		(uuid "fdaa25c5-25fe-4526-aaba-8a2a63d068f2")
 	)
+	(global_label "IMU2_INT"
+		(shape output)
+		(at 162.56 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "099160d3-166d-4683-a4fd-0ed7ac1a1cd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 34.29 120.65 180)
@@ -3939,6 +3951,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "IMU1_GYR_INT"
+		(shape output)
+		(at 78.74 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fbaaa2d-ddab-4a15-bea3-cf5dbe1f0205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4251,6 +4287,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "IMU1_ACC_INT"
+		(shape output)
+		(at 78.74 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8de5d6a-25aa-4855-9aa2-055d46e2616a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
