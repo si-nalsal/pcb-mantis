@@ -200,3 +200,24 @@ the BOM.
    plus the `LCSC` column.
 9. **Then, and only then**, export gerbers with the commands in
    [`fabrication/README.md`](../fabrication/README.md).
+
+## Update 13 Nov 2026 — re-placement LQFP176
+
+- MCU STM32H743IIT6 LQFP176 di (109.6, 80.5), rotasi 0°. 140 footprint dipindah oleh
+  `scripts/placement/replace.py` (input: arsip `archive/SvayamV3_IIK_LQFP176_pre-replacement_20261113_1548.zip`).
+- Routing global dibuang (819 segment, 153 via). Blok power (U10/U11/L1/D4–D6 dan pasifnya) tidak disentuh:
+  244 segment dan 57 via dipertahankan. Konektor servo J19–J34 tidak berubah.
+- Urutan PWM diubah di `connector.kicad_sch` dan pad R68–R83 — lihat [`PWM_MAPPING.md`](PWM_MAPPING.md).
+- Cek: 0 tumpang tindih courtyard; persilangan PWM 0; ratsnest MCU→tujuan pertama 364 → 210 (`scripts/placement/ratsnest.py`).
+- Saran routing: PWM di In2 (sinyal sisi kanan pasti memotong berkas PWM).
+- Ruang kosong untuk usulan pemotongan board: kiri-bawah x 44–64 / y 92–108, kanan-tengah x 147–157 / y 58–94, kanan-atas x 120–158 / y 44–60.
+- Belum dikerjakan (opsional, perlu persetujuan): tukar urutan flag OC pin 74–78; pindah BARO2 MISO.
+- Harus dijalankan di KiCad: ERC → Update PCB from Schematic → isi ulang zone (B) → DRC.
+
+## Update 13 Nov 2026 — DRC via kicad-cli (jembatan `scripts/kicad_bridge/`)
+
+- DRC KiCad (aturan proyek, refill zone): 0 pelanggaran dari routing lokal. Diperbaiki: 2 hole_to_hole (via GND dekat pasak NPTH J1),
+  3 via +3V3_FMU di luar zone In3, 2 via +VBUS tak perlu di J1; 8 via digeser agar via-ke-track ≥ 0,254 mm (angka JLCPCB).
+- Error tersisa: 4 hole_clearance bawaan footprint J1 (pad GND A1/B12 ke lubang pasak 0,194 mm) — usulan rule terbatas J1.
+- Blok power (tidak disentuh): 11 lokasi via-ke-track 0,20–0,244 mm (< 0,254 JLCPCB) dan 2 via_dangling (U11-PG, +VBUS).
+- Unconnected 224 = routing global (bagian pemilik) + daftar di `scripts/routing/route_report.txt`.
