@@ -52078,7 +52078,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J40"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "d0609e9c-4771-4e9d-b0ae-cb9a941c79b8")
 			(effects
 				(font
@@ -52090,7 +52090,7 @@
 		)
 		(property "Value" "CAN2_3"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "6ef03c1e-d529-4ccb-bb06-7c58969f747c")
 			(effects
 				(font
@@ -59069,7 +59069,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J42"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "52af72df-689a-4ee2-8eea-aeacbea608ea")
 			(effects
 				(font
@@ -59081,7 +59081,7 @@
 		)
 		(property "Value" "CAN2_5"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "9ae04832-0b0b-4d59-8ab7-c22c257ecc13")
 			(effects
 				(font
@@ -59819,7 +59819,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J37"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "2366c3db-bd47-4c14-8604-5208be8f2a1a")
 			(effects
 				(font
@@ -59831,7 +59831,7 @@
 		)
 		(property "Value" "CAN1_4"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "9aa8fd36-53d3-4ffd-8ce5-16e9a2c68898")
 			(effects
 				(font
@@ -60965,7 +60965,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J35"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "cb6fb77e-f8bb-498b-ae06-b4a08e167deb")
 			(effects
 				(font
@@ -60977,7 +60977,7 @@
 		)
 		(property "Value" "CAN1_2"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "5d2c2303-751f-4730-929b-c41e7c32cbfc")
 			(effects
 				(font
@@ -66488,7 +66488,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J39"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "de74c13a-bd27-4357-b590-422793490dd5")
 			(effects
 				(font
@@ -66500,7 +66500,7 @@
 		)
 		(property "Value" "CAN2_2"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "d3043430-9517-4de5-a4b1-3d302ce5c357")
 			(effects
 				(font
@@ -72941,7 +72941,8 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J36"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
+			(hide yes)
 			(uuid "174c57d3-847f-4864-a692-c2f98550f35a")
 			(effects
 				(font
@@ -72953,7 +72954,7 @@
 		)
 		(property "Value" "CAN1_3"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "6ae4eb73-7162-4533-bf66-028bdace85bd")
 			(effects
 				(font
@@ -80703,7 +80704,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J41"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "9a9e9d88-db48-4a4c-9cfd-65ee652bcf7f")
 			(effects
 				(font
@@ -80715,7 +80716,7 @@
 		)
 		(property "Value" "CAN2_4"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "7f8c1f6c-cf72-4d21-b463-aa694a52bd1f")
 			(effects
 				(font
@@ -82095,7 +82096,7 @@
 		(tags "connector JST GH vertical")
 		(property "Reference" "J38"
 			(at 0 4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "94cdc6cc-9e20-4167-88a4-c76cb29bbec6")
 			(effects
 				(font
@@ -82107,7 +82108,7 @@
 		)
 		(property "Value" "CAN1_5"
 			(at 0 -4 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "318ee673-47f7-490b-be35-e6d8b546c157")
 			(effects
 				(font
